@@ -1,0 +1,182 @@
+---
+title: Useful data science functions in R
+linktitle: R data science functions
+toc: true
+type: docs
+date: "2019-07-17T00:00:00+08:00"
+lastmod: "2019-07-17T00:00:00+08:00"
+draft: false
+menu:
+  datascience:
+    parent: Notes
+    weight: 2
+
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 1
+output:
+  html_document:
+    keep_md: yes
+---
+
+```{r, include = FALSE}
+delete_files <- function() {
+  file.types <- c("*.html")
+  for (i in seq_along(file.types)) {
+    file.remove(dir(pattern = file.types[i], full.names = TRUE))
+  }
+}
+delete_files()
+```
+
+As usual, before starting, load all the packages you need.
+
+```{r}
+library(tidyverse)
+```
+
+# Data management
+
+## Importing data sets
+
+Data can be imported by going to $\text{File}\rightarrow\text{Import Dataset}$.
+Alternatively, the code is
+
+```{r}
+# code for importing data
+```
+
+## Converting to tibbles
+
+```{r}
+as_tibble(iris)
+```
+
+## Subsetting
+
+To extract columns, use the `$` symbol.
+
+```{r}
+iris$Sepal.Length
+```
+
+## Reshaping
+
+```{r}
+reshape2::melt(table(diamonds$cut, diamonds$color), 
+                      var = c("cut", "color"))
+```
+
+# Variation
+
+## Continuous variables
+
+### 5-point summaries
+
+```{r}
+summary(iris)
+ggplot(reshape2::melt(iris), aes(x = variable, y = value)) +
+  geom_boxplot()
+```
+
+Note: in the above code, we used the `melt()` function in `reshape2` package to aggregate the data. 
+Explore what `melt()` does by running it in the console.
+
+### Histograms
+
+```{r}
+ggplot(iris, aes(x = Sepal.Length)) +
+  geom_histogram()
+```
+
+### Density plots
+
+```{r}
+ggplot(iris, aes(x = Sepal.Length)) +
+  geom_density(fill = "blue")
+```
+
+## Discrete variables
+
+### Frequency tables
+
+```{r}
+table(mpg$class)
+prop.table(table(mpg$class))
+```
+
+### Barplots
+
+```{r}
+ggplot(mpg, aes(x = reorder(class, class, FUN = length))) +
+  geom_bar() +
+  labs(x = "Class")
+```
+
+Note: The `reorder()` function sorts the bars... the syntax is a bit tricky to understand, so take it as is for now.
+
+# Covariation
+
+## Continuous variables
+
+### Scatter plots
+
+```{r}
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_point() 
+```
+
+### Smooth lines
+
+```{r}
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_smooth() 
+```
+
+### Binning
+
+```{r}
+ggplot(mpg, aes(x = displ, y = hwy)) + 
+  geom_boxplot(aes(group = cut_width(displ, 0.5)))
+```
+
+## Discrete variables
+
+### Contingency tables
+
+```{r}
+table(diamonds$cut, diamonds$color)
+t(table(diamonds$cut, diamonds$color))
+```
+
+### Count plots
+
+```{r}
+ggplot(data = diamonds) +
+  geom_count(mapping = aes(x = cut, y = color))
+```
+
+### Heat maps
+
+```{r}
+dat <- reshape2::melt(table(diamonds$cut, diamonds$color), 
+                      var = c("cut", "color"))
+ggplot(dat, aes(x = color, y = cut)) +
+    geom_tile(mapping = aes(fill = value))
+```
+
+## Continuous x discrete
+
+### Faceting
+
+```{r}
+ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_point() +
+  facet_wrap(~ class, nrow = 2)
+```
+
+### Adding additional aesthetics
+
+```{r}
+ggplot(mpg, aes(x = displ, y = hwy, col = class)) +
+  geom_point() 
+```

@@ -1,3 +1,6 @@
 public/
 .idea/
 .DS_Store
+content/teaching/datascience/.RData
+content/teaching/datascience/.Rhistory
+.Rproj.user/
