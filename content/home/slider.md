@@ -58,13 +58,13 @@ cta_icon_pack = "fas"
   cta_icon = "university" 
 
 [[item]]
-  title = "My PhD Project"
-  content = "Regression modelling using priors depending on Fisher information covariance kernels (I-priors)"
+  title = 'My PhD Project'
+  content = 'Regression modelling using priors depending on Fisher information covariance kernels (I-priors)'
   align = "center"
 
-  overlay_color = "#333"  # An HTML color value.
+  overlay_color = "#4d4d4d"  # An HTML color value.
   overlay_img = "headers/myphd.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.65  # Darken the image. Value in range 0-1.
+  overlay_filter = 0.35 # Darken the image. Value in range 0-1.
 
   cta_label = "Visit PhD Site"
   cta_url = "https://phd.haziqj.ml"
@@ -72,6 +72,9 @@ cta_icon_pack = "fas"
   cta_icon = "icicles" 
 
 +++
+<!-- 
+  title = '<font color="#4d4d4d">My PhD Project</font>'
+  content = '<font color="#4d4d4d">Regression modelling using priors depending on Fisher information covariance kernels (I-priors)</font>' -->
 
 <!-- [[item]]
   title = "Hello"
