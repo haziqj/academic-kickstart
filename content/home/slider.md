@@ -25,7 +25,7 @@ height = "300px"
   overlay_filter = 0.65  # Darken the image. Value in range 0-1.
 
   cta_label = "Visit Maths DY Site"
-  cta_url = "http://haziqj.github.io/maths-dy"
+  cta_url = "http://maths-dy.github.io"
 cta_icon_pack = "fas"
   cta_icon = "info-circle"
 
@@ -52,7 +52,7 @@ cta_icon_pack = "fas"
   overlay_img = "headers/ubd.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.65  # Darken the image. Value in range 0-1.
 
-  cta_label = "Visit UBD"
+  cta_label = "Visit UBD Site"
   cta_url = "https://ubd.edu.bn"
   cta_icon_pack = "fas"
   cta_icon = "university" 
