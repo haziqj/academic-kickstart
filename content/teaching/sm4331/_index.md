@@ -41,7 +41,7 @@ Before I get access to Canvas, use this website to obtain relevant material for 
 
 ### Office Hours
 
-When would be a good time for everyone?
+Book an appointment to see me: https://calendly.com/haziqj/sm-4331
 
 ### Lecture Slides
 
