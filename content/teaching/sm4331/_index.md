@@ -25,7 +25,7 @@ Before I get access to Canvas, use this website to obtain relevant material for 
 
 ### Schedule
 
-- <s>Tue 7/1/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 0)</s>
+- <s>Tue 07/1/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 0)</s>
 - **Tue 14/1/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 1)**
 - TBC Sat 18/1/2020 0950-1140 @ FSM 2.17; Lecture (Chapter 1)
     - ALTERNATIVE Tue 21/1/2020 0950-1140 @ FSM 2.18
@@ -33,6 +33,15 @@ Before I get access to Canvas, use this website to obtain relevant material for 
 - Mon 20/1/2020 0750-0940 @ FSM 2.19; Lecture (Chapter 1)
 - Tue 21/1/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 2)
 - Mon 27/1/2020 0750-0940 @ FSM 2.19; Tutorial (Exercise 1)
+- Tue 28/1/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 2)
+- Mon 03/2/2020 0750-0940 @ FSM 2.19; Tutorial (Exercise 2)
+- Tue 04/2/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 3)
+- Mon 10/2/2020 0750-0940 @ FSM 2.19; Lecture (Chapter 3)
+- Tue 18/2/2020 1410-1600 @ FSM 2.18; TEST (Chapters 1 & 2)
+
+### Office Hours
+
+When would be a good time for everyone?
 
 ### Lecture Slides
 
