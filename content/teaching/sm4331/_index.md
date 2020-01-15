@@ -43,12 +43,17 @@ Book an appointment to see me: https://calendly.com/haziqj/sm-4331
 
 ### Lecture Slides
 
-- [Chapter 0](/teaching/sm4331/chapter0.pdf)
-- [Chapter 1](/teaching/sm4331/chapter1.pdf)
+- [Chapter 0](/teaching/sm4331/chapter0-handout.pdf)
+- [Chapter 1](/teaching/sm4331/chapter1-handout.pdf)
+- [Chapter 2](/teaching/sm4331/chapter2-handout.pdf)
 
 ### Exercise Sheets
 
 - [Exercise 1](/teaching/sm4331/exercise1.pdf)
+
+### Statistical Tables
+
+- [PDF](/teaching/sm4331/stat_table.pdf)
 
 
 
