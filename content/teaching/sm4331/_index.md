@@ -32,9 +32,9 @@ Before I get access to Canvas, use this website to obtain relevant material for 
 - Tue 21/1/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 2)
 - Mon 27/1/2020 0750-0940 @ FSM 2.19; Tutorial (Exercise 1)
 - Tue 28/1/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 2)
-- Mon 03/2/2020 0750-0940 @ FSM 2.19; Tutorial (Exercise 2)
+- Mon 03/2/2020 0750-0940 @ FSM 2.19; Lecture (Chapter 3)
 - Tue 04/2/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 3)
-- Mon 10/2/2020 0750-0940 @ FSM 2.19; Lecture (Chapter 3)
+- Mon 10/2/2020 0750-0940 @ FSM 2.19; Tutorial (Exercise 2)
 - Tue 18/2/2020 1410-1600 @ FSM 2.18; TEST (Chapters 1 & 2)
 
 ### Office Hours
