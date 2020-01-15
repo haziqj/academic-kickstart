@@ -50,6 +50,7 @@ Book an appointment to see me: https://calendly.com/haziqj/sm-4331
 ### Exercise Sheets
 
 - [Exercise 1](/teaching/sm4331/exercise1.pdf)
+- [Exercise 2](/teaching/sm4331/exercise2.pdf)
 
 ### Statistical Tables
 
