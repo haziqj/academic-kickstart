@@ -21,6 +21,19 @@ menu:
     weight: 1
 ---
 
+### Schedule
+
+- <s>*SM-1402 only*--Tue 07/1/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 0)</s>
+- <s>*CU-0304 only*--Thu 09/1/2020 1150-1340 @ FSM 2.19; Lecture (Chapter 0)</s>
+- <s>Thu 16/1/2020 1150-1340 @ FSM 2.19; Lecture (Chapter 1)</s>
+- **Thu 23/1/2020 1150-1340 @ FSM 2.19; Lecture (Chapters 1 & 2)**
+- Thu 30/1/2020 1150-1340 @ FSM 2.19; Lecture (Chapter 2)
+- Sat 1/2/2020 0950-1140 @ FSM 2.19; Tutorial (Exercise 1)
+- Thu 6/2/2020 1150-1340 @ FSM 2.19; Lecture (Chapter 3)
+- Sat 8/2/2020 0950-1140 @ FSM 2.19; Tutorial (Exercise 2)
+
+CU-0304 students stop here; SM-1402 continue to Week 14.
+
 ### Lecture Slides
 
 Here are the HTML version of my lecture slides.
@@ -32,3 +45,8 @@ Here are the HTML version of my lecture slides.
 ### Exercise Sheets
 
 - [Exercise 1](/teaching/sm1402/exercise1.pdf)
+
+### Office Hours
+
+- Sat 18/1/2020 0800-0945 @ FOS M1.09
+- Thu 23/1/2020 1000-1145 @ FOS M1.09
