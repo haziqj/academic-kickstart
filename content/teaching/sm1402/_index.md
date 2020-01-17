@@ -1,6 +1,6 @@
 ---
 # Course title, summary, and position.
-linktitle: SM-1402 Advanced Statistics
+linktitle: SM-1402 Basic Statistics
 summary: UBD Breadth Module -- This module is designed to provide the students the fundamental knowledge of statistics, its application and the basic concepts of random variables and sampling.
 weight: 1
 
