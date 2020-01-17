@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>SM-1402 Basic Statistics</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dr. Haziq Jamil" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/duke-blue.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# SM-1402 Basic Statistics
+## Chapter 2 (Probability)
+### Dr. Haziq Jamil
+### Semester 2, 2019/20
+
+---
+
+class: middle, center
+
+
+
+.huge[
+In a room containing `\(n\)` individuals, what is the probability that at least two of them share the same birthday?
+]
+--
+By the end of this probability lecture we will have the necessary tools to answer this question.
+
+---
+layout: true
+
+# Probability
+
+---
+
+- The probability of an event is a _measure_ of the likelihood that it will happen/occur.
+
+- Probabilities are measured on a numerical scale from 0 to 1.
+
+- Probabilities can be expressed as percentages, fractions or decimals.
+
+- **Important**
+  - A probabability of 0 indicates that the event is **impossible**.
+  - Conversely, a probability of 1 indicates that the event is **certain** to happen.
+  - All other events have probability between 0 and 1.
+  - The higher the value, the more likely it is to occur, and vice-versa.
+
+---
+
+_Examples_
+
+- The probability of a fair coin landing 'heads' when tossed is 50% or 1/2 or 0.5.
+
+- There is a one in four chance of cutting a pack of cards at a diamond; the probability is 1/4 or 0.25 or 25%.
+
+- The weather forecaster may say that there is a 70% chance of rain tomorrow.
+
+.center[Probability relates to our _uncertainty_ about the world. The concept of _randomness_ is also inherintly linked to probabilities.]
+
+---
+
+### Notation
+
+Any statistical experiment or trial has a number of possible outcomes.
+
+- The set of all possible outcomes is called the **possibility space** `\(S\)`. This is also known as the **sample space**.
+
+- An event `\(A\)` of the experiment is defined to be the subset of `\(S\)`.
+
+_Example: A six-sided die is thrown and the outcome is recorded. _
+
+- The sample space is `\(S=\{1,2,3,4,5,6\}\)`.
+- An event `\(A\)` is any subset of `\(S\)`. Let `\(A\)` be the event that 'the score is less than 3'. Then,
+`$$A = \{ 1, 2 \}$$`
+---
+
+### A fair six-sided die
+
+.center[![:scale 50%](figures/die1.jpeg)]
+
+---
+
+### An unfair six-sided die
+
+.center[![:scale 40%](figures/die2.gif)]
+--
+.center[![:scale 40%](figures/die3.png)]
+---
+
+
+### Calculating probabilities
+
+_Example: Two six-sided dice are thrown and the outcome for both dice are recorded._
+
+- There are 36 possible outcomes: `\(\{1,1\}\)`, `\(\{1,2\}\)`, `\(\{2,1\}\)`, `\(\{1,3\}\)`, etc.
+
+- Define `\(A\)` to be the event 'the sum of the two scores is 6. These outcomes are
+  - `\(\{1,5\}\)`, `\(\{2,4\}\)`, `\(\{3,3\}\)`, `\(\{4,2\}\)`, and `\(\{5,1\}\)`
+  - There are five such outcomes. We denote this by the notation `\(n(\cdot)\)`, as in `\(n(A) = 5\)`.
+
+- Let `\(P(A)\)` denote the probability of `\(A\)`. Then,
+  $$
+  P(A) = \frac{n(A)}{n(S)} = \frac{5}{36}.
+  $$
+
+---
+
+### Possibility space diagram
+
+.center[![:scale 65%](figures/possibility_space.png)]
+
+---
+layout: true
+
+# Complementary events
+
+---
+
+- The complementary event `\(A'\)` denotes 'the event `\(A\)` does not occur'.
+
+- `\(n(A') = n(S) - n(A)\)`.
+
+--
+
+
+`$$\begin{align}P(A') &amp;= \frac{n(S) - n(A)}{n(S)}\\&amp;= 1 - \frac{n(A)}{n(S)}\\&amp;= 1 - P(A) \\\end{align}$$`
+
+--
+
+- Therefore, `\(P(A) + P(A') = 1\)`.
+
+---
+
+  
+_Example: A group of 20 university students contain eight who are in their first year of study. A student is picked at random to represent the group at a meeting. Find the probability that the student is not in the first year of study._
+
+- Let `\(A\)` denote the event that 'a student _is_ in the first year of study'.
+
+--
+
+- Therefore, `\(A'\)` is the event that 'a student _is not_ in the first year of study'.
+
+--
+
+- `\(P(A) = 8 / 20 = 0.4\)`.
+
+- So `\(P(A') = 1 - 0.4 = 0.6\)`.
+
+---
+layout: true
+
+# Venn diagrams
+
+Suppose `\(A\)` and `\(B\)` are two events associated with the same experiment. Consider the outcomes described below
+
+---
+
+### Union
+
+- The set that contains the outcomes that are in `\(A\)` or `\(B\)` or both is called the *union* of `\(A\)` and `\(B\)`, and is written `\(A \cup B\)`.
+
+.center[![:scale 50%](figures/venn1.png)]
+
+---
+
+### Intersection
+
+- The set that contains the outcomes that are in both A and B is called the *intersection* of `\(A\)` and `\(B\)`, and is written `\(A \cap B\)`.
+
+.center[![:scale 50%](figures/venn2.png)]
+
+---
+layout:true 
+
+# Probability results for combined events
+
+---
+class: center
+
+### Result 1
+
+![:scale 50%](figures/venn1.png)
+
+.large[
+`$$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$`
+]
+
+---
+class: center
+
+### Result 2
+
+![:scale 50%](figures/venn2.png)
+
+.large[
+`$$P(A \cap B) = P(B \cap A)$$`
+]
+
+---
+class: center
+
+### Result 3
+
+![:scale 50%](figures/venn3.png)
+
+.large[
+`$$P(A) = P(A \cap B') + P(A \cap B)$$`
+]
+---
+class: center
+
+### Result 4
+
+![:scale 50%](figures/venn4.png)
+
+Probability of 'neither `\(A\)` nor `\(B\)`'
+
+.large[
+`$$P(A' \cap B') = 1 - P(A \cup B)$$`
+]
+
+---
+layout: true
+
+# Examples
+
+---
+
+_Example 2.3_
+
+In a class of 20 children, 4 of the 9 boys and 3 of 11 girls are in the athletics team. A person from the class is chosen to be in the 'egg and spoon' race on Sports Day. Find the probability that the person chosen is
+
+(a) in the athletics team,
+
+(b) female,
+
+(c) A female member of the athletics team,
+
+(d) A female or in the athletics team.
+
+---
+
+_Solution 2.3_
+
+Let `\(A\)` be the event that they are in the athletics team, and let `\(F\)` be the event that they are female.
+
+- `\(n(S) = 20\)`.
+- `\(n(A) = 4\)` boys `\(+ 3\)` girls `\(= 7\)` altogether.
+- `\(n(F) = 11\)`.
+- `\(n(A \cap F) = 3\)`.
+
+(a) `\(P(A) = n(A) / n(S) = 7 / 20 = 0.35\)`.
+
+(b) `\(P(F) = n(F) / n(S) = 11 / 20 = 0.55\)`.
+
+(c) `\(P(A \cap F) = n(A \cap F) / n(S) = 3 / 20 = 0.15\)`.
+
+(d) `\(P(A \cup F) = P(A) + P(F) - P(A \cap F) = 0.75\)`.
+
+---
+
+_Example 2.6_
+
+Events `\(A\)` and `\(B\)` are such that `\(P(A)=0.3\)`, `\(P(B)=0.4\)`, and `\(P(A \cap B) = 0.1\)`. Find (a) `\(P(A \cap B')\)` and (b) `\(P(A' \cap B')\)`.
+
+_Hint:_ `\(P(A) = P(A \cap B') + P(A \cap B)\)` and `\(P(A' \cap B') = 1 - P(A \cup B)\)`.
+
+--
+
+_Solution 2.6_
+
+(a)
+
+`$$\begin{align}
+P(A \cap B') + P(A \cap B) &amp;= P(A) \\
+\Rightarrow P(A \cap B') &amp;= P(A) - P(A \cap B) \\
+&amp;= 0.3 - 0.1\\
+&amp;= 0.2
+\end{align}$$`
+
+---
+
+_Solution 2.6_
+
+(b) Recall that `\(P(A\cup B) = P(A) + P(B) - P(A\cap B)\)`, so
+
+`$$P(A\cup B) = 0.3 + 0.4 - 0.1 = 0.6$$`
+
+--
+
+Therefore,
+
+`$$\begin{align}
+P(A' \cap B') &amp;= 1 - P(A \cup B) \\
+&amp;= 1 - 0.6 \\
+&amp;=0.4
+\end{align}$$`
+
+---
+layout: true
+
+# Mutually exclusive events
+
+---
+
+Consider events `\(A\)` and `\(B\)` of the same experiment. The two events are said to be **mutually exclusive** if they cannot occur at the same time.
+
+_Examples:_
+- Throwing a single six-sided die and getting both a '3' and a '5' simultaneously.
+- Flipping a coin and obtaining both 'heads' and 'tails' simultaneously.
+- A car turning left and turning right simultaneously.
+
+--
+
+_Examples of non-mutually exclusive events:_
+- Drawing an even-numbered card and a red card from a deck of playing cards.
+- Throwing a single six-sided die and getting both an odd score and a score greater than 3.
+
+---
+
+Since `\(A\)` and `\(B\)` are mutually exclusive, `\(A \cap B\)` is an impossible event. Therefore, `\(P(A \cap B) = 0\)`. 
+
+.center[![:scale 70%](figures/venn5.jpg)]
+
+There is no overlap of `\(A\)` and `\(B\)`!
+
+---
+
+For mutually exlusive events,
+
+- `\(P(A\cup B) = P(A) + P(B)\)`
+
+Extending this result to `\(n\)` mutually exclusive events `\(A_1, A_2 \dots, A_n\)`,
+
+- `\(P(A_1 \cup \dots \cup A_n) = P(A_1) + \cdots + P(A_n)\)`
+
+---
+layout: true
+
+# Exhaustive events
+
+---
+
+If two events `\(A\)` and `\(B\)` are such that between them they make up the whole of the possibility space, then `\(A\)` and `\(B\)` are said to be **exhaustive events**, and
+
+- `\(P(A \cup B) = 1\)` (for exhaustive events `\(A\)` and `\(B\)`)
+
+_Example:_
+
+- `\(S = \{1,2,3,4,5,6,7,8,9,10\}\)`
+- Let `\(A = \{1,2,3,4,5\}\)`
+- Let `\(B = \{6,7,8,9,10\}\)`
+- Then `\(A \cup B = S\)`
+
+---
+
+### Special case
+
+Consider an event `\(A\)` and its complementary event `\(A'\)`. 
+
+.center[![:scale 40%](figures/venn6.png)]
+
+Then,
+- `\(P(A \cap A') = 0\)`
+- `\(P(A \cup A') = P(A) + P(A') = 1\)`
+- Any event `\(A\)` and its complementary `\(A'\)` are both mutually exclusive and exhaustive.
+
+---
+
+### Special case
+
+We can extend this to `\(n\)` exhasutive events `\(A_1, A_2 \dots, A_n\)`:
+
+`\(P(A_1) + \cdots + P(A_n) = 1\)` if and only if the `\(n\)` events are both mutually exclusive and exhaustive.
+
+---
+layout: false
+
+# Conditional probability
+
+If `\(A\)` and `\(B\)` are two events, not necessarily from the same experiment, then the **conditional probability** that `\(A\)` occurs, given that `\(B\)` has already occured, is written `\(P(A|B)\)`.
+
+The conditional probability is defined as 
+`$$P(A|B) = \frac{P(A\cap B)}{P(B)}.$$`
+
+This can be rearranged to give `\(P(A\cap B) = P(A|B) P(B)\)`.
+
+Also, by definition, `\(P(B\cap A) = P(B|A) P(A)\)`. Thus,
+`$$P(A|B) = \frac{P(B|A) P(A)}{P(B)}.$$`
+
+---
+layout: true
+# Independent events
+
+---
+
+If either of the events `\(A\)` and `\(B\)` can occur without being affected by the other, then the two events are said to be **independent**. Mathematically,
+
+- `\(P(A|B) = P(A)\)` if and only if `\(A\)` and `\(B\)` are independent.
+- It is also true that `\(P(B|A) = P(B)\)`.
+
+Remember that using the conditional probability definition, we have
+
+`$$P(A\cap B) = P(A|B) P(B).$$`
+
+So for _independent events_ `\(A\)` and `\(B\)`, the result becomes
+
+`$$P(A\cap B) = P(A) P(B).$$`
+
+---
+
+Three conditions for `\(A\)` and `\(B\)` to be independent:
+- `\(P(A\cap B) = P(A)P(B)\)`
+- `\(P(A|B) = P(A)\)`
+- `\(P(B|A) = P(B)\)`
+
+_Any of these three conditions may be used as a test of independence._
+
+The independence results can be extended to `\(n\)` independent events `\(A_1, A_2 \dots, A_n\)`:
+
+$$
+P(A_1 \cap \cdots \cap A_n) = P(A_1) \times \cdots \times P(A_n)
+$$
+
+---
+layout: true
+
+# Examples
+
+---
+
+
+_Example 2.8: When a die was thrown the score was an odd number. What is the probability that it was a prime number?_
+
+--
+
+Let `\(A\)` be the event 'score is prime', and `\(B\)` be the event 'the score is odd'. We are interested in `\(P(A|B)\)`.
+
+Note that 
+- `\(n(B) = 3\)`, so `\(P(B) = 3/6 = 1/2\)`.
+- `\(n(A \cap B) = n(\{3,5 \}) = 2\)`, and thus `\(P(A \cap B) = 2/6 = 1/3\)`.
+
+Therefore,
+
+`$$\begin{align}
+P(A|B) = \frac{P(A \cap B)}{P(B)} &amp;=\frac{1/3}{1/2}\\
+&amp;=2/3.
+\end{align}$$`
+
+---
+
+_Example 2.10: A fair six-sided die is thrown twice. Find the probability that two fives are thrown._
+
+--
+
+Firstly, realise that the two throws are _independent_ of each other. The result of the first throw does not affect the result of the second throw.
+
+--
+
+Let `\(A_1\)` be 'score of 5 on first throw' and `\(A_2\)` be 'score of 5 on second throw'. We are interested in the probability of `\(A_1\)` _and_ `\(A_2\)` occurring together.
+
+--
+
+`\(P(A_1 \cap A_2) = P(A_1) P(A_2) = 1/6 \times 1/6 = 1/36\)`.
+
+---
+layout: true
+
+# Probability trees
+
+---
+
+A useful way of tackling many probability problems is to draw a probability tree. The method is illustrated in the following example.
+
+_Example 2.17: In a certain selection of flower seeds, 2/3 have been treated to improve germination and 1/3 have been left untreated. The seeds which have been treated have a probability of germination of 0.8, whereas the untreated seeds have a probability of germination of 0.5._
+
+_(a) Find the probability that a seed, selected at random, will germinate (the seeds were sown and given time to germinate)._
+
+_(b) Find the probability that a seed selected at random had been treated, given that it had germinated._
+
+---
+
+This is what we know...
+
+- Let `\(T\)` be 'seed is treated'. So `\(P(T) = 2/3\)` and `\(P(T')=1/3\)`.
+- Let `\(G\)` be 'seed germinates'. So `\(P(G|T) = 0.8\)` and `\(P(G|T')=0.5\)`
+
+We'll draw a probability tree to determine
+
+(a) `\(P(G)\)`
+
+(b) `\(P(T|G)\)`
+
+---
+
+&lt;img src="chapter2_files/figure-html/unnamed-chunk-1-1.png" width="1100" /&gt;
+
+`$$\begin{align}
+P(G) &amp;= P(G \cap T) + P(G \cap T')\\
+&amp;= P(G|T)P(T) + P(G|T')P(T') \\
+&amp;= 2/3 \times 0.8 + 1/3 \times 0.5 = 0.7
+\end{align}$$`
+
+---
+
+&lt;img src="chapter2_files/figure-html/unnamed-chunk-2-1.png" width="1100" /&gt;
+
+`$$\begin{align}
+P(T|G) =\frac{P(G \cap T)}{P(G)} &amp;= \frac{P(G|T)P(T)}{P(G)}\\
+&amp;= \frac{0.8 \times 2/3}{0.7} = 0.762 \text{ (3d.p.)}
+\end{align}$$`
+
+---
+layout: false
+
+# Law of Total Probability
+
+In the previous probability tree example, we wanted to find out the **marginal probability** `\(P(G)\)`, which we calculated using other conditional/joint probabilities involving the event `\(G\)`.
+
+Consider a set of exhaustive events `\(\{B, A_1, \dots, A_n\}\)` whose union makes up the entire sample space `\(S\)`.
+The law of total probability states that 
+
+`$$P(B) = \sum_{i=1}^n P(B \cap A_i) = \sum_{i=1}^n P(B|A_i)P(A_i)$$`
+
+---
+layout: true
+
+# Bayes' Theorem
+
+---
+
+.center[![:scale 50%](figures/bayes.gif)]
+.center[Thomas Bayes (1701-1761) was an English statistician, philosopher and Presbyterian minister]
+
+---
+
+Bayes' theorem connects the two probabilities `\(P(A|B)\)` and `\(P(B|A)\)` through the conditional probability rule.
+
+`$$P(A|B) = \frac{P(B|A)P(A)}{P(B)}$$`
+
+This can be extended as well, by replacing the marginal probability `\(P(B)\)` in the formula with the result of the _law of total probability_.
+
+`$$P(A|B) = \frac{P(B|A)P(A)}{\sum_{i=1}^n P(B|A_i)P(A_i)}$$`
+
+The message here is that you can calculate `\(P(A|B)\)` if you have knowledge regarding the "reverse" conditionals `\(P(B|A)\)`.
+
+---
+layout: true
+
+# Problems involving an 'at least' situation
+
+_Example 2.21 (a): Find the probability of obtaining at least one six when five dice are thrown._
+
+---
+
+The events that we are interested in are
+- One die scores a 6;
+- Two dice score 6
+- Three dice score 6
+- ...and so on.
+
+It is easier to think of the complement of the event 'at least one six is thrown', which is 
+- 'NO die scores a 6' or 'All 5 die do not score 6'.
+
+---
+
+Let `\(A\)` be the event 'at least one six is thrown'. Then,
+
+`$$\begin{align}
+P(A') &amp;= 1 - P(A) \\
+&amp;= 1 - \left( \frac{5}{6} \times \frac{5}{6} \times \frac{5}{6} \times \frac{5}{6} \times \frac{5}{6} \right)\\
+&amp;= 0.598 \text{ (3 d.p)}
+\end{align}$$`
+
+---
+layout: true
+
+# Arrangements
+
+---
+
+In order to calculate the number of possible outcomes in a possibility space or an event, the following results are often used.
+
+### Result 1
+
+The number of ways of arranging `\(n\)` unlike objects in a line is `\(n!\)`
+
+`$$n! = n \times (n-1) \times (n-2) \times \cdots 3 \times 2 \times 1$$`
+
+The ' `\(!\)` ' symbol is pronounced 'factorial'. Note that `\(0! = 1\)` by definition.
+
+### Result 2
+
+The number of ways of arranging in a line `\(n\)` objects, of which `\(p\)` are alike, is `\(\frac{n!}{p!}\)`
+
+---
+   
+   
+_Example: Consider the letters A, B, C, D. How many possible arrangements are there from these four letters?_
+
+Imagine that you have four boxes to fill with these four letters (withour replacement)
+- 1st box: Any of the **4** letters can be chosen.
+- 2nd box: The remaining **3** letters can be chosen.
+- 3rd box: The remaining **2** letters can be chosen.
+- 4th box: No choice to be made here.
+- Therefore, total number of arrangements = `\(4! = 24\)`.
+
+```html
+ABCD ABDC ACBC ACDB ADCB ADBC 
+BCDA BCAD BDAC BDCA BACD BADC 
+CDBA CDAB CABD CADB CBAD CBDA 
+DABC DACB DBCA DBAC DCAB DCBA
+```
+
+---
+  
+_Example: Consider the letters A, A, A, D. How many possible arrangements are there from these four letters?_
+
+As before, we imagine four boxes to fill with these four letters. However, we notice that three of the letters are the same, which makes some of the arrangements indistinguishable from one another.
+
+```html
+AAAD AADA ADAA DAAA
+```
+
+Using the formula, we have
+
+`$$\begin{align}
+\frac{4!}{3!} &amp;= \frac{4 \times 3 \times 2 \times 1}{3 \times 2 \times 1}\\
+&amp;=4
+\end{align}$$`
+
+---
+  
+_Example: If a four-digit number is formed from the digits 1, 2, 3, and 5, and repetitions are not allowed, find the probability that the four-digit number is divisible by 5._
+
+- In total, there are `\(4! = 24\)` possible arrangements.
+- However, for a number to be divisible by 5, it must end in 5. 
+- So the first 3 digits can be arranged in any order using the remaining 3 digits.
+- There are `\(3!=6\)` possible ways to do this.
+- Thus, the probability is `\(6/24 = 1/4\)`.
+
+---
+layout:true
+
+# Permutations
+
+---
+
+Consider the number of ways of placing the letters A, B, C, D, E, F, G in three empty spaces.
+- The first space can be filled in **7** ways
+- The second space can be filled in **6** ways
+- The third space can be filled in **5** ways
+- Therefore there are `\(7 \times 6 \times 5 =  210\)` ways in total.
+
+This is the number of **permutations** of three objects taken from seven, and is written `\(^7P_3\)`.
+
+Note that the order is important: ABC is different from BAC, although they contain the same three letters.
+
+---
+
+The number of permutations, or ordered arrangements, of `\(r\)` objects taken from `\(n\)` unlike objects, is written `\(^nP_r\)`, where
+
+$$
+^nP_r = \frac{n!}{(n-r)!}
+$$
+
+  
+---
+layout: true
+
+# Combinations
+
+---
+
+If instead we viewed all arrangements with the same letters as identical, i.e. treat ABC, ACB, CAB, BAC, BCA, CBA all the same, then we are only interested in **combinations** of letters. 
+
+For each choice of three letters, there are `\(3!\)` possible arrangements.
+
+Denote the number of combinations of these 3 objects from 7 objects as `\(^7C_3\)`. Then, we have the relationship
+
+`$$^7P_3 = 3! \times ^7C_3$$`
+Which then implies
+
+$$ ^7C_3 = \frac{^7P_3}{3!} = \frac{7!}{3!(7-3)!} = 35$$
+
+---
+
+A combination of `\(n\)` objects taken `\(r\)` at a time is a choice of `\(r\)` out of `\(n\)` objects. This is given by the formula
+
+$$ ^nC_r =  \frac{n!}{r!(n-r)!}$$
+
+---
+layout: true
+
+# Examples
+
+---
+
+_Example 2.27: In how many ways can a hand of four cards be dealt from an ordinary pack of 52 playing cards?_
+ 
+--
+ 
+Hint: Is this a permutation or a combination problem?
+
+--
+
+It is a combination problem: The order in which the cards are dealt is not important.
+
+The answer is `\(^{52}C_4 = 270,725\)` possible combinations.
+
+---
+
+_Example 2.28: Four letters are chosen randomly from the word RANDOMLY. Find the probability that all four letters chosen are consonants._
+ 
+--
+ 
+Hint: Is this a permutation or a combination problem?
+
+--
+
+- What is the size of the sample space? `\(n(S) = ^8C_4 = 70\)`.
+- Let `\(E\)` represent 'all four letters are consonants'. 
+- What is the size of the event space? `\(n(E) = ^6C_4 = 15\)`.
+- Thus `\(P(E) = n(E)/n(S) = 15/70 = 0.214\)` (2 d.p.).
+
+---
+layout: false
+class: inverse, center, middle
+
+# The Birthday Problem
+
+.huge[
+In a room containing `\(n\)` individuals, what is the probability that at least two of them share the same birthday?
+]
+
+---
+.large[
+First, some assumptions.
+- There are only 365 days in a year.
+- Each day is equally likely to be a birthday.
+- Birthdays are independent of each other.
+
+Hint: 'at least' means look at the event complement.
+
+]
+
+
+---
+
+
+- Let `\(E\)` be 'at least two people share same birthday'
+
+- Therefore `\(E'\)` is the event 'no one shares the same birthday'
+
+--
+
+- What is the size of the sample space? `\(n(S)=365^n\)`, since each person has a birthday on one of the 365 days. For two people it is `\(365 \times 365\)` (recall the possibility diagram for the six-sided dice). By extension for `\(n\)` people it is `\(365^n\)`.
+
+--
+
+- What is the size of the complement of the event space? We are interested in choosing `\(n\)` different days of the year (from 365). Birthdays are unique to the individuals, so order matters (it is a permutation problem). Therefore, `\(n(E')=^{365}P_n\)`
+
+- The probability of the event complement is therefore
+
+`$$P(E') = n(E')/n(S) = \frac{365!}{(365-n)!365^n}$$`
+
+---
+
+- Alternatively, we can use conditional probabilities.
+
+- Let `\(A_i\)` be the event that person `\(i\)` has a unique birthday in the year. We are interested in 
+
+$$
+P(A_1 \cap A_2 \cap \cdots \cap A_n)
+$$
+--
+
+- Using the definition of conditional probabilities,
+
+`\begin{align*}
+  P&amp;(A_1 \cap A_2 \cap \cdots \cap A_n) \\
+  &amp;= P(A_1)P(A_2 \cap \cdots \cap A_n| A_1) \\
+  &amp;= P(A_1)P(A_2|A_1)P(A_3 \cap \cdots \cap A_n|A_1, A_2) \\
+  &amp;= \vdots \\
+  &amp;= P(A_1)P(A_2|A_1)\cdots P(A_n|A_1,\dots,A_{n-1})
+\end{align*}`
+
+---
+
+- Taking each of these probabilities in turn,
+
+   - `\(P(A_1)= 365/365 = 1\)`
+   
+--
+
+   - `\(P(A_2|A_1) = 364/365\)` since one birthday has already been taken, now only 364 days of the year remains
+   
+--
+
+   - `\(P(A_3|A_1,A_2) = 363/365\)` by a similar argument
+--
+
+   - `\(P(A_n|A_1,\dots,A_{n-1}) = (365-n+1)/365\)` in general (following the pattern)
+--
+
+- Therefore
+
+`\begin{align*}
+  P(E') &amp;= P(A_1 \cap A_2 \cap \cdots \cap A_n) \\
+  &amp;= \frac{365}{365}\cdot\frac{364}{365}\cdots\frac{365-n+1}{365} \\
+  &amp;= \frac{365!}{(365-n)!365^n}
+\end{align*}`
+---
+
+Therefore the probability of interest is 
+
+`$$P(E) = 1 - P(E') = 1 - \frac{365!}{(365-n)!365^n}$$`
+
+.center[
+&lt;img src="chapter2_files/figure-html/unnamed-chunk-3-1.png" width="1100" /&gt;
+]
+
+---
+
+- Remark: The probability to calculate is better evaluated using logarithms due to the very large numbers resulting from the factorials.
+
+`\begin{align*}
+\frac{365!}{(365-n)!365^n} 
+&amp;= \exp\left[\log\left( \frac{365!}{(365-n)!365^n} \right) \right] \\
+&amp;= \exp\left[\log 365! - \log(365-n)! - n\log 365 \right] \\
+\end{align*}`
+
+---
+layout: false
+class: inverse, middle, center
+
+# END
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

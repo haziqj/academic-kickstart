@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>SM-1402 Basic Statistics</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dr. Haziq Jamil" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/duke-blue.css" rel="stylesheet" />
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# SM-1402 Basic Statistics
+## Chapter 1 (Summarising Data)
+### Dr. Haziq Jamil
+### Semester 2, 2019/20
+
+---
+
+class: inverse, middle, center
+
+
+
+# Representation of Data
+
+---
+layout: true
+
+# Types of data 
+
+Numeric data can be one of two types: *discrete* or *continuous*.
+
+---
+
+### Discrete data
+
+Discrete data can take **only exact (whole) values**, for example:
+- the number of lecture rooms in UBD,
+- the number of students in a class,
+- the number of durians on each tree in a plantations.
+
+Example of raw discrete data: _An orange tree produces roughly a number of fruits per tree. A survey of 30 orange trees yielded the following number of fruits per tree._
+
+
+```
+ [1] 31 32 34 30 32 33 31 34 32 33 35 32 32 33 32 32 33 31 32 33
+[21] 32 30 31 31 32 30 33 32 33 33
+```
+
+---
+
+### Continuous data
+
+Continuous data _cannot_ take exact (whole) values, but can be given only within a specified range, or measured to a specified degree of accuracy.
+- the heights of students in UBD,
+- the length of classrooms in UBD,
+- the travel time in minutes from home to UBD.
+
+Example of raw continuous data: _A survey of the heights of 20 children in a sports club yielded the following measurements (rounded to the nearest centimetre)_
+
+
+```
+ [1] 133 136 120 138 133 131 127 141 127 143 130 131 125 144 128
+[16] 134 135 137 133 129
+```
+
+---
+layout: true 
+
+# Grouping data
+
+Raw data can be grouped for a more concise presentation.
+
+---
+
+### Discrete data (oranges from trees)
+  
+Count the number of times each value occurs and summarise these in a table known as a **frequency distribution**
+
+
+```
+ [1] 31 32 34 30 32 33 31 34 32 33 35 32 32 33 32 32 33 31 32 33
+[21] 32 30 31 31 32 30 33 32 33 33
+```
+
+|Number of oranges |30 |31 |32 |33 |34 |35 |           |
+|:-----------------|:--|:--|:--|:--|:--|:--|:----------|
+|Frequency         |3  |5  |11 |8  |2  |1  |Total = 30 |
+
+---
+
+### Continuous data (children's heights)
+
+To form a **frequency distribution** of the heights of the 20 children, group the information into **classes or intervals**
+
+
+```
+ [1] 133 136 120 138 133 131 127 141 127 143 130 131 125 144 128
+[16] 134 135 137 133 129
+```
+
+|Height (cm) |119.5-124.5 |124.5-129.5 |129.5-134.5 |134.5-139.5 |139.5-144.5 |           |
+|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|:----------|
+|Freq.       |1           |5           |7           |4           |3           |Total = 20 |
+
+The values 119.5, 124.5, 129.4, ... are called the **class boundaries**. The **upper class boundary** of one interval is the lower class boundary of the next interval.
+
+---
+
+### Terminology
+
+- The **mode** (for discrete data) is the is the value which occurs most often.    This can be read off directly from the frequency distribution.
+
+  For the orange data, the mode is _32 oranges_.
+
+- The **width of an interval** (for grouped data) is the difference between boundaries.
+
+  For the children's height frequency distribution, the interval width used was _5cm_.
+
+---
+layout: true
+
+# Ways of grouping data
+
+---
+
+&lt;u&gt;Example 1&lt;/u&gt;
+
+_The length of 30 metal rods were measured to the nearest millimetres._
+
+| Length (mm) |   27-31   |   32-36   |   37-46   |   47-51   |
+|-------------|:---------:|:---------:|:---------:|:---------:|
+| Freq.       |     4     |     11    |     12    |     3     |
+
+- The interval 27-31 means 26.5mm `\(\leq\)` length `\(&lt;\)` 31.5mm, and so on.
+- The class boundaries are 26.5, 31.5, 36.5, 46.5, and 51.5.
+- The class widths&lt;sup&gt;1&lt;/sup&gt; are 5, 5, 10, and 5.
+
+.footnote[
+----
+[1] Class widths do not necessarily have to be the same for all classes.
+]
+
+---
+
+&lt;u&gt;Example 2&lt;/u&gt;
+
+_100 students took a test, and their marks are tabulated._
+
+| Mark  | 30-39 | 40-49 | 50-59 | 60-69 | 70-79 | 80-99 |
+|-------|:-----:|:-----:|:-----:|:-----:|-------|-------|
+| Freq. |   10  |   14  |   26  |   20  | 18    | 12    |
+
+The frequency distribution can be interpreted in two ways:
+
+- As **discrete** data.
+  - The interval 30-39 represents 30 `\(\leq\)` mark `\(&lt;\)` 40.
+  - The class boundaries are 30, 40, 50, 60, 70, 80, 100.
+  - The class widths are 10, 10, 10, 10, 10, 20.
+- As **continuous** data assuming marks are to the nearest integer.
+  - The interval 30-39 represents 29.5 `\(\leq\)` mark `\(&lt;\)` 39.5.
+  - The class boundaries are 29.5, 39.5, 49.5, 59.5, 69.5, 79.5, 99.5.
+  - The class widths are 10, 10, 10, 10, 10, 20.
+
+---
+
+&lt;u&gt;Example 3&lt;/u&gt;
+
+_Ages (in completed years) of applicants for a teaching post._
+
+| Age (years) | 21-24 | 25-28 | 29-32 | 33-40 | 41-52 |
+|-------------|:-----:|:-----:|:-----:|:-----:|-------|
+| Freq.       |   4   |   2   |   2   |   1   | 1     |
+
+- Since ages are given in _completed years_ (not to the nearest year), then '21-24' means 21 `\(\leq\)` age `\(&lt;\)` 25&lt;sup&gt;1&lt;/sup&gt;.
+- We can also write the categories as '21-', '25-', etc.
+- The class bounderies are 21, 25, 29, 33, 41, 53.
+- The class widths are 4, 4, 4, 8, 12.
+
+.footnote[
+----
+[1] Someone who is 24 years and 11 months is not yet 25 years old, so would come under this category.
+]
+
+---
+layout: true
+
+# Histograms
+
+---
+
+Consider the following table for the distribution of ages of 118 passengers on a shuttle flight from Bandar Seri Begawan, Brunei to Kota Kinabalu, Sabah.
+
+| Age (years) | 0-19 | 20-39 | 40-49 | 50-69 | 70-100 |
+|-------------|:----:|:-----:|:-----:|:-----:|--------|
+| Frequency   |   4  |   44  |   36  |   28  | 6      |
+
+A **histogram** provides a visual representation of _grouped data_.
+
+---
+
+| Age (years) | 0-19 | 20-39 | 40-49 | 50-69 | 70-100 |
+|-------------|:----:|:-----:|:-----:|:-----:|--------|
+| Frequency   |   4  |   44  |   36  |   28  | 6      |
+
+&lt;img src="chapter1_files/figure-html/unnamed-chunk-7-1.png" width="1100" /&gt;
+
+---
+
+- In a histogram, the area of each bar is proportional to the frequency that it represents, and thus
+$$
+\text{total area} \propto \text{total frequency}
+$$
+
+- The vertical axis is not labelled frequency, but _frequency density_&lt;sup&gt;1&lt;/sup&gt;, where
+$$
+\text{freq. density} = \frac{\text{frequency}}{\text{interval width}}
+$$
+
+.footnote[
+----
+[1] You may also find histograms with the vertical axis labelled 'density' (c.f. density plots), or even 'frequency' (this type of histogram visualises where values are concentrated).
+]
+
+---
+
+- Using the formula given, we can calculate the complete table for the histogram as follows:
+
+| Age (years) | Interval width | Frequency | Freq. density |
+|-------------|:--------------:|:---------:|:-------------:|
+| 0-19        |       20       |     4     |  4 ÷ 20 = 0.2 |
+| 20-39       |       20       |     44    | 44 ÷ 20 = 2.2 |
+| 40-49       |       10       |     36    | 36 ÷ 10 = 3.6 |
+| 50-69       |       20       |     28    | 28 ÷ 20 = 1.4 |
+| 70-99       |       30       |     6     |  6 ÷ 30 = 0.2 |
+
+---
+
+- Histograms may have bars of different widths, so the height of the bar must be adjusted accordingly.
+
+- The **modal class** is the interval with the &lt;u&gt;greatest frequency density&lt;/u&gt;, i.e. the interval represented by _the highest bar_ in the histogram. For the current example, the modal class is the interval '40-49'&lt;sup&gt;1&lt;/sup&gt;.
+
+.footnote[
+----
+[1] Notice that this interval does not have the greatest frequency, but it does have the greatest frequency density.
+]
+
+---
+layout: true
+
+# Frequency polygons
+
+---
+
+An alternative way of displaying grouped data is using **frequency polygons**.
+
+---
+
+| Age (years) | 0-19 | 20-39 | 40-49 | 50-69 | 70-100 |
+|-------------|:----:|:-----:|:-----:|:-----:|--------|
+| Frequency   |   4  |   44  |   36  |   28  | 6      |
+
+&lt;img src="chapter1_files/figure-html/unnamed-chunk-8-1.png" width="1100" /&gt;
+
+---
+
+To construct a frequency polygon, 
+- Calculate the mid-interval value, where
+  $$
+  \text{mid-interval value} = \frac{1}{2}(\text{LCB} + \text{UCB})
+  $$
+- Calculate the frequency densities.
+- Join points together with a straight line.
+
+---
+
+- Calculate the complete table for the frequency polygon:
+
+| Age (years) | Mid-interval value  | Interval width | Frequency | Freq. density |
+|-------------|---------------------|:--------------:|:---------:|:-------------:|
+| 0-19        | (0 + 20) ÷ 2 = 10   |       20       |     4     |  4 ÷ 20 = 0.2 |
+| 20-39       | (20 + 40) ÷ 2 = 30  |       20       |     44    | 44 ÷ 20 = 2.2 |
+| 40-49       | (40 + 50) ÷ 2 = 45  |       10       |     36    | 36 ÷ 10 = 3.6 |
+| 50-69       | (50 + 70) ÷ 2 = 60  |       20       |     28    | 28 ÷ 20 = 1.4 |
+| 70-99       | (70 + 100) ÷ 2 = 85 |       30       |     6     |  6 ÷ 30 = 0.2 |
+
+---
+layout: true
+
+# Pie charts
+
+---
+
+Yet another diagram to display grouped data is a pie chart.
+
+- A circle (pie) is divided into several **sectors** (slices of the pie), with each sector corresponding to a class interval.
+
+- The central angle `\(\theta\)` of the sectors are _proportional_ to the frequencies of the intervals they represents, according to the formula
+
+$$
+\theta = \frac{\text{class freq.}}{\text{total freq.}} \times 360°
+$$
+
+- The area of a sector `\(A\)` of a circle with radius `\(r\)` is given by the formula
+
+$$
+A = \frac{\text{class freq.}}{\text{total freq.}} \times \pi r^2 = \frac{\theta}{360} \times \pi r^2
+$$
+
+---
+
+.small[**WARNING: Pie charts should only be used for grouped data with &lt;u&gt;equal&lt;/u&gt; class intervals**
+
+_Annual sales (millions of dollars) of a company by region_
+
+| Region      | Africa | America | Asia | Europe | 
+|-------------|:------:|:-------:|:----:|:------:|
+| Sales       |   5.5  |   6.7   |13.2  |   19.6 | 
+]
+
+.pull-left[.small[
+_Pie chart table_
+
+| Region  | Sales |        Angle        |       Area (r=1)       |
+|---------|-------|:-------------------:|:----------------------:|
+| Africa  | 5.5   |  5.5/45 x 360 = 44  |  5.5/45 x `\(\pi\)` = 0.38 |
+| America | 6.7   |  6.7/45 x 360 = 54  |  6.7/45 x `\(\pi\)` = 0.47 |
+| Asia    | 13.2  | 13.2/45 x 360 = 106 | 13.2/45 x `\(\pi\)` = 0.92 |
+| Europe  | 19.6  | 19.6/45 x 360 = 156 | 19.6/45 x `\(\pi\)` = 1.37 |
+| Total   | 45.0  | 360                 | `\(\pi\)`                |
+]]
+
+.pull-right[
+&lt;img src="chapter1_files/figure-html/unnamed-chunk-9-1.png" width="360" height="300" /&gt;
+]
+
+---
+layout: false
+class: inverse, middle, center
+
+# Data Summaries
+
+---
+
+# The mean
+
+- A 'typical' or 'average' value is useful when interpreting data. One such alue is the **mean**&lt;sup&gt;1&lt;/sup&gt;.
+
+- The formula for the mean is
+  $$
+  \bar x = \frac{1}{n}\sum_{i=1}^n x_i = \frac{x_1 + \cdots + x_n}{n}
+  $$
+   
+
+- Consider 5 numbers
+  ```
+  0.9, 1.4, 2.8, 3.1, 5.6
+  ```
+  The mean is `\((0.9 + 1.4 + 2.8 + 3.1 + 5.6) / 5 = 13.8 / 5 = 2.76\)`.
+
+
+.footnote[
+[1] 'Average' does not always refer to the 'mean'. There are other measures of _central tendencies_, such as the mode, median and others.
+]
+
+---
+
+# Variability
+
+- Each of these sets of numbers has a mean of 7, but the _spread_ of each set is different.
+  ```html
+  (a): 7, 7, 7, 7, 7
+  (b): 4, 6, 6.5, 7.2, 11.3
+  (c): -193, -46, 28, 69, 177
+  ```
+
+&lt;img src="chapter1_files/figure-html/unnamed-chunk-10-1.png" width="1100" /&gt;
+
+---
+layout:true
+
+# Variability
+
+We can measure the **variability** or spread of a distribution by calculating the _range_ and the _standard deviation_.
+
+---
+
+### The range
+
+
+- The range is based entirely on the extreme values of the distribution.
+  $$
+  \text{range} = \text{highest value} - \text{lowest value}
+  $$
+  ```html
+  (a): range(7, 7, 7, 7, 7)        = 7 - 7        = 0
+  (b): range(4, 6, 6.5, 7.2, 11.3) = 11.3 - 4     = 7.3
+  (c): -193, -46, 28, 69, 177      = 177 - (-193) = 370
+  ```
+
+---
+
+### The standard deviation and the variance
+
+- The standard deviation `\(s\)` gives a measure of the deviations of the readings from the mean `\(\bar x\)`.
+
+- Steps to calculate `\(s\)` (for `\(i=1,\dots,n\)`)
+  1. For each reading `\(x_i\)`, calculate `\(x_i-\bar x\)`, its deviation from the mean
+  2. Square this deviation to give `\((x_i-\bar x)^2\)`
+  3. Sum all of these squared deviations to give `\(\sum_{i=1}^n (x_i-\bar x)^2\)`
+  4. Divide this sum by `\(n\)` to give the **variance**
+  5. Finally, take the positive square root of the variance to obtain the standard deviation `\(s\)`
+
+---
+
+### The standard deviation and the variance
+
+- The formula for the variance is given by
+  $$
+  s^2 = \frac{\sum_{i=1}^n (x_i-\bar x)^2}{n}
+  $$
+  
+--
+  
+- The formula for the standard deviation is given by
+  $$
+  s = \sqrt{\frac{\sum_{i=1}^n (x_i-\bar x)^2}{n}}
+  $$
+
+---
+layout: true
+
+# Calculating the s.d.
+
+---
+
+_Set (a)_
+
+| `\(i\)` | Data `\(x_i\)` | Mean `\(\bar x\)` | `\(x_i - \bar x\)` | `\((x_i - \bar x)^2\)` |
+|:---:|:----------:|:-------------:|:--------------:|:------------------:|
+|  1  |      7     |       7       |        0       |          0         |
+|  2  |      7     |       7       |        0       |          0         |
+|  3  |      7     |       7       |        0       |          0         |
+|  4  |      7     |       7       |        0       |          0         |
+|  5  |      7     |       7       |        0       |          0         |
+|     |            |               |                |       SUM = 0      |
+
+.center[
+`$$s^2 = 0 / 5 = 0$$`
+`$$s = \sqrt{s^2} = \sqrt{0} = 0$$`
+]
+
+---
+
+_Set (b)_
+
+| `\(i\)` | Data `\(x_i\)` | Mean `\(\bar x\)` | `\(x_i - \bar x\)` | `\((x_i - \bar x)^2\)` |
+|:---:|:----------:|:-------------:|:--------------:|:------------------:|
+|  1  |      4     |       7       |       -3       |          9         |
+|  2  |      6     |       7       |       -1       |          1         |
+|  3  |     6.5    |       7       |      -0.5      |        0.25        |
+|  4  |     7.2    |       7       |       0.2      |        0.04        |
+|  5  |    11.3    |       7       |       4.3      |        18.49       |
+|     |            |               |                |     SUM = 28.78    |
+
+.center[
+`$$s^2 = 28.78 / 5 = 5.756$$`
+`$$s = \sqrt{s^2} = \sqrt{5.756} = 2.4 \text{ (1 d.p.)}$$`
+]
+
+---
+layout: false
+
+# Notes on the s.d.
+
+- The units of the standard deviation are the _same_ as the units of the data.
+
+- Standard deviations are useful when comparing sets of data; the higher the standard deviation, the greater the variability in the data.
+
+- Alternative formula for the s.d.
+  $$
+  s = \sqrt{\frac{\sum_{i=1}^n x_i^2}{n} - \bar x ^2}
+  $$
+---
+
+# Cumulative frequencies
+
+- The cumulative frequency is the **total frequency** _up to a particular item_. 
+
+- A cumulative frequency distribution can be obtained from a frequency distribution and can be illustrated 
+  - When the data are _discrete_ and _ungrouped_ (**step diagram**);
+  
+  - When the data are _continuous_ or in the form of _grouped discrete distribution_ (**cumulative frequency polygon/curve**).
+
+---
+layout: true
+
+# Step diagram
+
+---
+  
+_Example: The table above shows the number of attempts needed to pass the driving test by 100 candidates at a particular test centre._
+
+| No. of attempts           |  1 |  2 |  3 | 4 | 5 | 6 |
+|---------------------------|:--:|:--:|:--:|:-:|:-:|:-:|
+| Freq. (No. of candidates) | 33 | 42 | 13 | 6 | 4 | 2 |
+
+The cumulative frequency table is created by adding the attempts cumulatively.
+
+| No. of attempts           | `\(\leq\)` 1 | `\(\leq\)` 2 | `\(\leq\)` 3 | `\(\leq\)` 4 | `\(\leq\)` 5 | `\(\leq\)` 6 |
+|---------------------------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+| Cumulative freq.|    33   |    75   |    88   |    94   |    98   |   100   |
+
+Notice that the last entry of the cumulative frequency table must equal to the number of observations in total.
+
+---
+
+| No. of attempts           | `\(\leq\)` 1 | `\(\leq\)` 2 | `\(\leq\)` 3 | `\(\leq\)` 4 | `\(\leq\)` 5 | `\(\leq\)` 6 |
+|---------------------------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+| Cumulative freq.|    33   |    75   |    88   |    94   |    98   |   100   |
+
+&lt;img src="chapter1_files/figure-html/unnamed-chunk-11-1.png" width="1100" /&gt;
+
+---
+Arrange candidates in ascending order of number of attempts. How many tries did the 50th candidate take to pass the test?
+
+&lt;img src="chapter1_files/figure-html/unnamed-chunk-12-1.png" width="1100" /&gt;
+
+---
+How many candidates took up to four attempts?
+
+&lt;img src="chapter1_files/figure-html/unnamed-chunk-13-1.png" width="1100" /&gt;
+
+---
+
+- It only makes sense when you read from the discrete whole values on the horizontal axis. It would be silly to consider 3.6 attempts, for example.
+
+- In the step diagram, the _mode_ is given by the value of the variable that gives the 'steepest' step.
+
+
+---
+layout: true
+
+# Cumulative frequency polygons
+
+---
+
+  
+_Example: Six weeks after planting, the heights of 30 broad bean plants were measured and the frequency distribution formed as shown._
+
+.small[
+| Height `\(x\)` (cm) | 3 `\(\leq x &lt;\)` 6 | 6 `\(\leq x &lt;\)` 9 | 9 `\(\leq x &lt;\)` 12 | 12 `\(\leq x &lt;\)` 15 | 15 `\(\leq x &lt;\)` 18 | 18 `\(\leq x &lt;\)` 21 |
+|-----------------|:--------------:|:--------------:|:---------------:|:----------------:|:----------------:|:----------------:|
+| Frequency           |        1       |        2       |        11       |        10        |         5        |         1        |
+]
+
+- The cumulative frequency is calculated up to each UCB (6, 9, 12, 15, 18, 21).
+- The lower boundary of the first class is 3.
+
+| Height `\(x\)` (cm)  | `\(&lt;\)` 3 | `\(&lt;\)` 6 | `\(&lt;\)` 9 | `\(&lt;\)` 12 | `\(&lt;\)` 15 | `\(&lt;\)` 18 | `\(&lt;\)` 21 |
+|------------------|:--:|:--:|:--:|:---:|:---:|:---:|:-----:|
+| Cumulative freq. |  0 |  1 |  3 |  14 |  24 |  29 | 30  |
+
+---
+
+Joining all the points with a straight line gives a **cumulative frequency polygon**. This assumes that the readings are _evenly_ distributed throughout the intervals.
+
+&lt;img src="chapter1_files/figure-html/unnamed-chunk-14-1.png" width="1100" /&gt;
+
+---
+layout: true
+
+# Cumulative frequency curve
+
+---
+
+Joining all the points with a smooth line gives a **cumulative frequency curve**. This assumes that the readings are _not evenly_ distributed throughout the intervals.
+
+&lt;img src="chapter1_files/figure-html/unnamed-chunk-15-1.png" width="1100" /&gt;
+
+---
+
+How many plants were less than 10.5cm tall? 
+
+&lt;img src="chapter1_files/figure-html/unnamed-chunk-16-1.png" width="1100" /&gt;
+
+---
+
+Find `\(x\)` where 90% of the plants were less than `\(x\)` cm tall.
+
+&lt;img src="chapter1_files/figure-html/unnamed-chunk-17-1.png" width="1100" /&gt;
+
+---
+layout: true
+
+# Median and quartiles
+
+---
+
+For data arranged in order of size,
+
+- The **lower quartile** `\(Q_1\)` is the value 25% of the way through the distribution.
+
+- The **median** `\(Q_2\)` is the value 50% of the way through the distribution.
+
+- The **upper quartile** `\(Q_3\)` is the value 75% of the way through the distribution.
+
+Therefore, the median, lower quartile and upper quartile together split the distribtion into four equal parts.
+
+- The **inter-quartile range**, defined as the difference between the quartiles, tells you the range of the middle 50% of the distribution.
+$$
+\text{IR} = Q_3 - Q_1
+$$
+---
+
+.center[
+![](figures/median_quartiles_2.png)
+]
+
+---
+
+.center[
+![](figures/median_quartiles_1.jpg)
+]
+
+---
+layout: true
+
+# Quartiles for ungrouped data
+
+---
+
+- For ungrouped data consisting of `\(n\)` observations arranged in ascending order of size, the median is the 
+$$
+Q_2 = \frac{1}{2}(n + 1)\text{th observation}
+$$
+  - If there is an odd number of observations, the median is the middle value.
+  - If there is an even number of observations, there are two middle values, and the median is the average of these two numbers.
+
+- The quartiles should divide the two distributions either side of the median in half. Re-apply the formula for the median for each half to find the lower and upper quartiles.
+
+---
+
+  
+_Example: Consider the set of numbers `\(\{ 7, 7, 2, 3, 4, 2, 7, 9, 31\}\)`_
+
+- Since there are 9 numbers, the median is the (9 + 1)/2 th observation, i.e. the 5th observation, which is 7.
+```html
+2, 2, 3, 4, [7], 7, 7, 9, 31
+```
+
+- The median of the left distribution `\(\{2,2,3,4 \}\)` gives the lower quartile, i.e. the middle value between 2 and 3 = (2 + 3) / 2 = 2.5.
+```html
+2, [2, 3], 4, [7], 7, 7, 9, 31
+```
+
+- The median of the right distribution `\(\{7,7,9,31 \}\)` gives the lower quartile, i.e. the middle value between 7 and 9 = (7 + 9) / 2 = 8.
+```html
+2, 2, 3, 4, [7], 7, [7, 9], 31
+```
+---
+
+- Sometimes, the following rule is used to find the quartiles:
+  $$
+  Q_1 = \frac{1}{4}(n + 1)\text{th observation}
+  $$
+  $$
+  Q_3 = \frac{3}{4}(n + 1)\text{th observation}
+  $$
+  This rule agrees with the above method when `\(n\)` is odd, but there is a discrepancy when `\(n\)` is even. But it does not make a great deal of difference whichever method is used.
+
+---
+
+To find the median and quartiles of data in the form of an ungrouped frequency distribution, it is useful to find the cumulative frequency.
+
+_Example: The table shows the cumulative number of attempts needed to pass the driving test by 100 candidates at a particular test centre._
+
+| No. of attempts           | `\(\leq\)` 1 | `\(\leq\)` 2 | `\(\leq\)` 3 | `\(\leq\)` 4 | `\(\leq\)` 5 | `\(\leq\)` 6 |
+|---------------------------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+| Cumulative freq.|    33   |    75   |    88   |    94   |    98   |   100   |
+
+Since there are `\(n=100\)` observations,
+- `\(Q_2\)` is the middle value of 50 and 51, i.e. the 50.5th observation. This lies in the class of '$\leq 2$' attempts.
+- `\(Q_1\)` is the 25th observation, which lies in the class of '$\leq 1$' attempts.
+- `\(Q_3\)` is the 75th observation, which lies in the class of '$\leq 2$' attempts.
+
+---
+
+Or, we can read from the step diagram
+
+&lt;img src="chapter1_files/figure-html/unnamed-chunk-18-1.png" width="1100" /&gt;
+
+---
+layout:true
+
+# Quartiles for grouped data
+
+---
+
+- When data have been grouped into intervals, the original information has been lost, so it is only possible to make _estimates_ of the median and quartiles.
+
+- One way of doing this is to use a cumulative frequency graph (polygon or curve).
+  - `\(Q_1\)` is the `\(\frac{1}{4}\)`th reading.
+  - `\(Q_2\)` is the `\(\frac{1}{2}\)`th reading.
+  - `\(Q_3\)` is the `\(\frac{3}{4}\)`th reading.
+
+---
+
+Back to the heights of 30 broad beans six weeks after planting.
+
+&lt;img src="chapter1_files/figure-html/unnamed-chunk-19-1.png" width="1100" /&gt;
+
+---
+layout: false
+class: inverse, middle, center
+
+# Anscombe's Quartet
+
+A cautionary tale in summary statistics
+
+---
+class: center, middle
+
+![:scale 90%](figures/anscombe1.png)
+
+.center[
+Mean of `\(x\)` = 9, Variance of `\(x\)` = 11. Mean of `\(y\)` = 7.5, Variance of `\(y\)` = 4.125. Correlation between `\(x\)` and `\(y\)` = 0.816.
+]
+
+---
+
+# The Datasaurus Dozen
+
+.center[![](figures/datasaurus.gif)]
+
+.footnote[https://www.autodeskresearch.com/publications/samestats]
+
+---
+class: inverse, middle, center
+
+# END
+
+&lt;!-- ```{r, include = FALSE} --&gt;
+&lt;!-- system("decktape remark chapter1.html chapter1.pdf --chrome-arg=--disable-web-security") --&gt;
+&lt;!-- ``` --&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

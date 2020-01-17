@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>SM-1402 Basic Statistics</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dr. Haziq Jamil" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/duke-blue.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# SM-1402 Basic Statistics
+## Introduction
+### Dr. Haziq Jamil
+### Semester 2, 2019/20
+
+---
+
+
+
+
+layout:true
+
+# Fire Safety Briefing
+
+---
+
+In the event of a fire, the fire alarm will operate and everyone must immediately evacuate the building. Please:
+
+- Exit the building in a calm and orderly fashion.
+
+- Leave your belongings and non-essential items.
+
+- Do NOT use the lifts; assist anyone having difficulty.
+
+- Make your way to the Assembly Point at BIOLOGY CAR PARK (NEAR BACK ENTRACE TO MASJID)
+
+Please listen to and obey instructions given by Fire Marshalls and Fire &amp; Rescue Personnel. DO NOT ATTEMPT TO RE-ENTER THE BUILDING BEFORE GIVEN THE ALL-CLEAR THAT IT IS SAFE TO DO SO.
+
+---
+
+![](figures/firediag.png)
+
+---
+layout:true
+
+# Admin
+
+---
+
+- Lecturer information
+
+  ```html
+  Dr. Haziq Jamil
+  Assistant Professor in Statistics
+  Room M1.09
+  haziq.jamil@ubd.edu.bn
+  ```
+
+- Classes are on 
+   - **Thursdays, 11.50am&amp;mdash;1.40pm** in **FSM 2.19** (Weeks 1-5)
+   - **Tuesdays, 9.50am&amp;mdash;11.40am** in **FSM 2.18** (Weeks 8-14)
+   - No classes Weeks 6 &amp; 7
+
+- CU-0304 students will only attend the first 7 weeks (Ch. 1-3 only), and then proceed to learn Basic Calculus (Dr. Norhayati Hamzah).
+
+- Slides and materials are available from Canvas.
+
+&lt;!-- - Bring a calculator to class! --&gt;
+
+&lt;!-- - This course is designed for students with no background in stats. --&gt;
+
+---
+
+- The course is assessed as follows:
+
+  - Formative assessment
+  
+      - Tutorials (no need to hand in)--**attempt questions prior to tutorial
+sessions**
+
+--
+
+  - Summative assessment
+    
+      - 2 × assignments (20% each), due at the end of Mid Sem Break and Week 14--**Note: only one for CU-0304 students**
+      
+      - Exam (60%) in Early May.
+
+---
+layout: true
+
+# Schedule
+---
+
+- First half of semester (SM-1402 &amp; CU-0304):
+
+|                 | Day 1    | Day 2    |
+|:--------------|----------|----------|
+|    Week 1 (start 6/1) | Lecture  |          |
+| Week 2 (start 13/1) | Lecture  | Office hours          |
+|   Week 3 (start 20/1) | Lecture  | Tutorial |
+|  Week 4 (start 27/1) | Lecture  | Office hours         |
+|  Week 5 (start 3/2) | Lecture  | Tutorial |
+|  Week 6 (start 10/2) |          |          |
+| Week 7  (start 17/2) |          |          |
+|  Week 8 (start 24/2) | SEMESTER | BREAK    |
+
+- Note: Tutorial days and office hours will be announced later.
+
+---
+
+- Second half of semester (SM-1402 only):
+
+|                  | Day 1          | Day 2        |
+|:----------------|----------------|--------------|
+|    Week 9 (start 2/3) | Lecture        | Office hours |
+|   Week 10 (start 9/3) | Tutorial       |              |
+|  Week 11 (start 16/3) | Lecture        | Office hours |
+|  Week 12 (start 23/3)| Lecture        |              |
+|  Week 13 (start 30/3) | Tutorial       | Office hours |
+|  Week 14 (start 6/4)  | Lecture        |              |
+|  Week 15 (start 13/4) | Tutorial       | Office hours |
+|  Week 16 (start 20/4) | Revision Class |  ⠀⠀⠀⠀⠀⠀⠀⠀           |
+
+- Revision class for both SM-1402 &amp; CU-0304 students.
+
+---
+layout: false
+# Course contents
+
+- **Chapter 1: Representation and Summary of Data**
+  - Discrete &amp; continuous data
+  - Frequency distributions &amp; grouping
+  - Plots (histograms, frequency polygons, pie charts)
+  - Data summaries (mean, median, variance, standard deviation, quartiles)
+  - Cumulative frequencies
+--
+
+- **Chapter 2: Probability, Arrangements, Permutations, Combinations**
+  - Probability notation and laws
+  - Venn diagrams and probabilities
+  - Conditional probabilities and independent events
+  - Probability trees
+  - Bayes theorem
+  - Arrangements, permutations and combinations
+  
+---
+
+# Course contents
+
+- **Chapter 3: Discrete Probability Distribution**
+  - Probability distribution tables / functions and its features
+  - Expectation and variance
+  - Cumulative distribution
+  - Useful results of expectation and variance
+  - Bernoulli and Binomial distribution
+  - Poisson distribution
+--
+
+- **Chapter 4: Continuous Probability Distribution**
+  - Probability density functions and its features
+  - Expectation and variance
+  - Cumulative density function
+  - The normal distribution and its properties
+  - Normal approximations
+  
+---
+
+# Course contents
+
+- **Chapter 5: Sampling and estimation**
+  - Sampling and estimation
+  - Central limit theorem
+  - Point estimates
+  - Interval estimates
+  
+
+
+---
+class: inverse, middle, center
+
+# Why Statistics?
+
+---
+class: middle
+
+.center[.huge[
+Statistics is the science of learning from data.
+]]
+
+It is the crucial process which allows us to
+- make discoveries in scientific studies (_inference_)
+
+- make _predictions_ about future observations
+
+- make informed decisions based on data
+
+.large[.center[Learning Statistics allows you to make _trustworthy analyses and predictions_ about the real world.]]
+
+---
+layout: true
+
+# Statistical concerns
+
+---
+
+### 1. Data summary
+
+- A vital part of statistics is to succintly convey and report _information_.
+
+- Being versed in the correct statistical techniques will avoid you being duped by flawed statistics.
+
+- One example: _&lt;u&gt;The flaw of averages&lt;/u&gt;_
+
+- While it is useful to condense a large amount of information to a singular 'statistic', often it can be misleading.
+
+---
+class:center
+
+![:scale 90%](figures/pop1.png)
+
+Numbers of men expected to die at each age (UK, mortality rate 2010-2012). Mean age = 79, Median = 82, Mode = 86.
+
+---
+class:center
+
+![:scale 100%](figures/flaw_avg1.png)
+
+
+---
+
+### 2. What's your proof?
+
+- Statistics provide the framework for discerning 'credible truth' by means of 'statistical significance'.
+
+--
+
+- _Example: A lady declares that by tasting a cup of tea made with milk she can discriminate whether the milk or the tea infusion was first added to the cup._
+
+--
+
+- How do we know she's telling the truth? We can set up an experiment of course...
+
+--
+
+- Eight cups of milk tea were prepared, four of which had the milk poured in first, and the remaining four had the tea poured in first. 
+
+- The lady tastes the tea at random and tells us whether the tea or the milk was poured in first for each cup.
+
+---
+
+### 2. What's your proof?
+
+.center[![](figures/tea_cups.png)]
+
+- The lady correctly guesses **3 out of 8**. Is she telling the truth?
+
+--
+
+- The lady correctly guesses **4 out of 8**. Is she telling the truth?
+
+--
+
+- The lady correctly guesses **5 out of 8**. Is she telling the truth?
+
+--
+
+- How large is large?
+
+- We can use a hypothesis test to inform us the chance (p-value) of the lady correctly answering the taste tests, under the assumption that her claim is true.
+
+- Low p-values indicate evidence against her claim.
+
+---
+
+### 3. Measures of association
+
+- Statistics and statistical modelling concerns the measurement of correlations between variables.
+
+- In a lot of scientific studies, we want to understand the behaviour of two or more variables taken together. For example,
+  
+  - Low unemployment is _associated_ with high GDP output.
+  - High satisfaction in the workplace is _associated_ with low turnover (job quitting) rates.
+  - Lung cancer is found to be _more prevalent_ among people who smoke.
+
+---
+
+### 3. Measures of association
+
+
+- Caution: **CORRELATION DOES NOT IMPLY CAUSATION**
+
+--
+
+- "A study found that children with small feet tend to have low IQ scores"
+
+--
+
+- Small feet causes low IQ?
+
+--
+
+- No, children with small feet are younger children, and IQ develops as they grow.
+  
+---
+
+.center[.large[Be wary of spurious correlations]]
+
+![](figures/spurious.png)
+
+---
+
+On the other hand, causation &lt;u&gt;requires&lt;/u&gt; STRONG CORRELATION.
+
+.center[![:scale 90%](figures/tea-map1.png)]
+
+---
+
+The world has only two words for tea: tea or cha. Which word you use very much depends on the region you are in (strong correlation). But there is a cause for this:
+
+Chá (茶) is "Sinitic", common to many varieties of Chinese, eventually becoming chai (چای) in Persian.
+However, the character is pronounced as 'te', derived probably from tu (荼), in Min Chinese (Fujian etc.).
+
+
+---
+
+### 4. Reliability (of data and assumptions)
+
+- Understanding _how_ the data was collected, and what (model) _assumptions_ were made, allows us to be vigilant when wrong conclusions are drawn.
+
+--
+
+- _Example: Survey sampling bias._
+
+- Data that is collected should be _representative_ of the population of interest, in order for _valid_ inferences to be drawn.
+
+- Types of sampling errors:
+  - Convenience sampling.
+  - Substitutions.
+  - Multiplicity.
+  - Volunteering.
+
+---
+
+.center[![:scale 90%](figures/survey_bias.jpeg)]
+
+---
+
+### 5. How likely is it?
+
+- When done correctly, statistical modelling allows us to predict future outcomes (with a degree of confidence).
+
+- This is the main concern of **machine learning**: Learning from data and patterns.
+
+- Statistics also allows us to learn about trends and perform forecasting (time-series analyses).
+
+---
+
+.center[![:scale 95%](figures/pop2.jpeg)]
+
+---
+layout: true
+
+# SM-1402 Basic Statistics
+
+---
+
+- What will we learn in this course?
+
+- Mainly, the foundations and basics of statistics. This includes data summary, probability, and distributions.
+
+- There are several statistics modules being offered here in FOS and they advance progressively.
+
+---
+layout: false
+class: inverse, middle, center
+
+# END
+
+&lt;!-- ```{r, include = FALSE} --&gt;
+&lt;!-- file_name &lt;- paste0("file://", normalizePath("chapter0.html")) --&gt;
+&lt;!-- # webshot::webshot(file_name, "chapter0.pdf", delay = 5) --&gt;
+&lt;!-- pagedown::chrome_print(file_name) --&gt;
+&lt;!-- ``` --&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
