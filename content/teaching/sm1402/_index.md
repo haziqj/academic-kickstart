@@ -25,9 +25,9 @@ menu:
 
 Here are the HTML version of my lecture slides.
 
-- [Chapter 0](../sm1402/chapter0)
-- [Chapter 1](../sm1402/chapter1)
-- [Chapter 2](../sm1402/chapter2)
+- [Chapter 0](https://haziqj.github.io/sm1402/chapter0)
+- [Chapter 1](https://haziqj.github.io/sm1402/chapter1)
+- [Chapter 2](https://haziqj.github.io/sm1402/chapter2)
 
 ### Exercise Sheets
 
