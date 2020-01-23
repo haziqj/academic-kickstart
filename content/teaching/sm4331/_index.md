@@ -19,6 +19,9 @@ menu:
   sm4331:
     name: Overview
     weight: 1
+
+math: true
+markup: mmark    
 ---
 
 Before I get access to Canvas, use this website to obtain relevant material for the course.
@@ -46,7 +49,7 @@ Book an appointment to see me: https://calendly.com/haziqj/sm-4331
 
 ### Exercise Sheets
 
-- [Exercise 1](/teaching/sm4331/exercise1.pdf)
+- [Exercise 1](/teaching/sm4331/exercise1.pdf)--EDIT: Q4 should read $Y_1,\dots,Y_m$ be a sample from $\text{Bern}(q)$.
 - [Exercise 2](/teaching/sm4331/exercise2.pdf)
 
 ### Statistical Tables
