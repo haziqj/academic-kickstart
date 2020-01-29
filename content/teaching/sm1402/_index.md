@@ -41,6 +41,7 @@ Here are the HTML version of my lecture slides.
 - [Chapter 0](https://haziqj.github.io/sm1402/chapter0)
 - [Chapter 1](https://haziqj.github.io/sm1402/chapter1)
 - [Chapter 2](https://haziqj.github.io/sm1402/chapter2)
+- [Chapter 3](https://haziqj.github.io/sm1402/chapter3)
 
 ### Exercise Sheets
 
@@ -49,6 +50,6 @@ Here are the HTML version of my lecture slides.
 ### Office Hours
 
 - <s>Sat 18/1/2020 0800-0945 @ FOS M1.09</s>
-- Thu 23/1/2020 1000-1145 @ FOS M1.09
-- Mon 27/1/2020 1000-1100 @ FOS M1.09
+- <s>Thu 23/1/2020 1000-1145 @ FOS M1.09</s>
+- <s>Mon 27/1/2020 1000-1100 @ FOS M1.09</s>
 - Thu 30/1/2020 1045-1145 @ FOS M1.09
