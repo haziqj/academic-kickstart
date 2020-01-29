@@ -46,6 +46,7 @@ Here are the HTML version of my lecture slides.
 ### Exercise Sheets
 
 - [Exercise 1](/teaching/sm1402/exercise1.pdf)
+- [Exercise 2](/teaching/sm1402/exercise2.pdf)
 
 ### Office Hours
 
