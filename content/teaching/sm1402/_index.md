@@ -32,7 +32,7 @@ menu:
 - Thu 6/2/2020 1150-1340 @ FSM 2.19; Lecture (Chapter 3)
 - Sat 8/2/2020 0950-1140 @ FSM 2.19; Tutorial (Exercise 2)
 
-CU-0304 students stop here; SM-1402 continue to Week 14.
+CU-0304 students stop here; SM-1402 continue Weeks 8 to 14.
 
 ### Lecture Slides
 
