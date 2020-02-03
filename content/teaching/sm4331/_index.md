@@ -32,8 +32,8 @@ For the full schedule, see this [link](/teaching/sm4331/sm4331-schedule).
 
 - <s>Mon 27/1/2020 0750-0940 @ FSM 2.17; Tutorial (Exercise 1)</s>
 - <s>Tue 28/1/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 2)</s>
-- **Mon 03/2/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 2)**
-- Tue 04/2/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 2)
+- <s>Mon 03/2/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 2)</s>
+- **Tue 04/2/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 2)**
 - Mon 10/2/2020 0750-0940 @ FSM 2.17; Tutorial (Exercise 2)
 - Tue 18/2/2020 1410-1600 @ FSM 2.18; TEST (Chapters 1 & 2)
 

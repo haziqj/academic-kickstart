@@ -53,4 +53,4 @@ Here are the HTML version of my lecture slides.
 - <s>Sat 18/1/2020 0800-0945 @ FOS M1.09</s>
 - <s>Thu 23/1/2020 1000-1145 @ FOS M1.09</s>
 - <s>Mon 27/1/2020 1000-1100 @ FOS M1.09</s>
-- Thu 30/1/2020 1045-1145 @ FOS M1.09
+- <s>Thu 30/1/2020 1045-1145 @ FOS M1.09</s>
