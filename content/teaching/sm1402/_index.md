@@ -48,6 +48,10 @@ Here are the HTML version of my lecture slides.
 - [Exercise 1](/teaching/sm1402/exercise1.pdf) / [Solutions](/teaching/sm1402/solutions1.pdf)
 - [Exercise 2](/teaching/sm1402/exercise2.pdf)
 
+### Assignemnts
+
+- [Assignment 1](/teaching/sm1402/assignment1.pdf)--DUE: 3/3/2020 12:00pm
+
 ### Office Hours
 
 - <s>Sat 18/1/2020 0800-0945 @ FOS M1.09</s>
