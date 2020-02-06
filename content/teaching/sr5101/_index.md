@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: SR-5101 Advanced Research Skills
-summary: UBD Breadth Module -- This module is designed to provide new graduate students involved in research in the sciences with the skills and resources needed for successful research. 
+summary: UBD Masters Module -- This module is designed to provide new graduate students involved in research in the sciences with the skills and resources needed for successful research. 
 weight: 1
 
 # Page metadata.
@@ -33,7 +33,7 @@ Please download RStudio onto your laptops. Install the `tidyverse` package by ru
 
 ### Lecture Slides
 
-- [Lecture 1](https://haziqj.github.io/sm1402/chapter0)
+- [Lecture 1](https://haziqj.github.io/sr5101/chapter1)
 - Lecture 2
 - Lecture 3
 
