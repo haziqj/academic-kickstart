@@ -23,7 +23,7 @@ menu:
 
 ### General
 
-Please download RStudio onto your laptops. Install the `tidyverse` package by running `install.packages("tidyverse")` in the R terminal. You may like to follow along during class as I present the R codes, so bring along your laptops to class.
+Please download RStudio onto your laptops. Install the `tidyverse` package by running `install.packages("tidyverse")` in the R terminal. You may like to follow along during class as I present the R codes, so bring along your laptops to class if you wish.
 
 ### Schedule
 
@@ -33,7 +33,7 @@ Please download RStudio onto your laptops. Install the `tidyverse` package by ru
 
 ### Lecture Slides
 
-- [Lecture 1](https://haziqj.github.io/sr5101/chapter1)
+- [Lecture 1](https://haziqj.github.io/sr5101/lecture1)
 - Lecture 2
 - Lecture 3
 
