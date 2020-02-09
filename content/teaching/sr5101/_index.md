@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: SR-5101 Advanced Research Skills
-summary: UBD Masters Module -- This module is designed to provide new graduate students involved in research in the sciences with the skills and resources needed for successful research. 
+summary: UBD Masters Module&mdash;This module is designed to provide new graduate students involved in research in the sciences with the skills and resources needed for successful research. 
 weight: 1
 
 # Page metadata.

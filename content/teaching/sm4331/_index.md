@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: SM-4331 Advanced Statistics
-summary: UBD Major Option &mdash; This module aims to broaden the student's skills in estimation theory, hypothesis testing, sampling design, and multivariate analysis. 
+summary: UBD Major Option&mdash;This module aims to broaden the student's skills in estimation theory, hypothesis testing, sampling design, and multivariate analysis. 
 weight: 1
 
 # Page metadata.
