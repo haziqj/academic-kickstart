@@ -7,7 +7,7 @@ weight: 1
 # Page metadata.
 title: SR-5101 Advanced Research Skills
 date: "2020-02-06T00:00:00Z"
-lastmod: "2020-02-06T00:00:00Z"
+lastmod: "2020-02-09T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -34,8 +34,8 @@ Please download RStudio onto your laptops. Install the `tidyverse` package by ru
 ### Lecture Slides
 
 - [Lecture 1](https://haziqj.github.io/sr5101/lecture1)
-- Lecture 2
-- Lecture 3
+- [Lecture 2](https://haziqj.github.io/sr5101/lecture2)
+- Lecture 3 (in progress)
 
 ### Resources
 

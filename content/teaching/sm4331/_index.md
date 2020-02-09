@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: SM-4331 Advanced Statistics
-summary: UBD Major Option -- This module aims to broaden the student's skills in estimation theory, hypothesis testing, sampling design, and multivariate analysis. 
+summary: UBD Major Option &mdash; This module aims to broaden the student's skills in estimation theory, hypothesis testing, sampling design, and multivariate analysis. 
 weight: 1
 
 # Page metadata.
@@ -33,8 +33,8 @@ For the full schedule, see this [link](/teaching/sm4331/sm4331-schedule).
 - <s>Mon 27/1/2020 0750-0940 @ FSM 2.17; Tutorial (Exercise 1)</s>
 - <s>Tue 28/1/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 2)</s>
 - <s>Mon 03/2/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 2)</s>
-- **Tue 04/2/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 2)**
-- Mon 10/2/2020 0750-0940 @ FSM 2.17; Tutorial (Exercise 2)
+- <s>Tue 04/2/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 2)</s>
+- **Mon 10/2/2020 0750-0940 @ FSM 2.17; Tutorial (Exercise 2)**
 - Tue 18/2/2020 1410-1600 @ FSM 2.18; TEST (Chapters 1 & 2)
 
 ### Office Hours
@@ -49,8 +49,8 @@ Book an appointment to see me: https://calendly.com/haziqj/sm-4331
 
 ### Exercise Sheets
 
-- [Exercise 1](/teaching/sm4331/exercise1.pdf)--EDIT: Q4 should read $Y_1,\dots,Y_m$ be a sample from $\text{Bern}(q)$.
-- [Exercise 2](/teaching/sm4331/exercise2.pdf)
+- [Exercise 1](/teaching/sm4331/exercise1.pdf) / [Solutions](/teaching/sm4331/solutions1.pdf)&mdash;EDIT: Q4 should read $Y_1,\dots,Y_m$ be a sample from $\text{Bern}(q)$. 
+- [Exercise 2](/teaching/sm4331/exercise2.pdf) / Solutions&mdash;PLEASE ALSO COMPLETE MY [FEEDBACK FORM](/feedback), THANKS!
 
 ### Statistical Tables
 

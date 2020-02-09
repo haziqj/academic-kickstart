@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: SM-1402 Basic Statistics
-summary: UBD Breadth Module -- This module is designed to provide the students the fundamental knowledge of statistics, its application and the basic concepts of random variables and sampling.
+summary: UBD Breadth Module &mdash; This module is designed to provide the students the fundamental knowledge of statistics, its application and the basic concepts of random variables and sampling.
 weight: 1
 
 # Page metadata.
@@ -29,10 +29,18 @@ menu:
 - <s>Thu 23/1/2020 1150-1340 @ FSM 2.19; Lecture (Chapters 1 & 2)</s>
 - <s>Thu 30/1/2020 1150-1340 @ FSM 2.19; Lecture (Chapter 2)</s>
 - <s>Sat 1/2/2020 0950-1140 @ FSM 2.19; Tutorial (Exercise 1)</s>
-- **Thu 6/2/2020 1150-1340 @ FSM 2.19; Lecture (Chapter 3)**
-- Sat 8/2/2020 0950-1140 @ FSM 2.19; Tutorial (Exercise 2)
+- <s>Thu 6/2/2020 1150-1340 @ FSM 2.19; Lecture (Chapter 3)</s>
+- <s>Sat 8/2/2020 0950-1140 @ FSM 2.19; Tutorial (Exercise 2)</s>
 
 CU-0304 students stop here; SM-1402 continue Weeks 8 to 14.
+
+- Tue 3/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 4)
+- Tue 10/3/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 3)
+- Tue 17/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 4)
+- Tue 24/3/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 4)
+- Tue 31/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 5)
+- Tue 7/4/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 5)
+- Tue 14/4/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 5)
 
 ### Lecture Slides
 
@@ -46,7 +54,7 @@ Here are the HTML version of my lecture slides.
 ### Exercise Sheets
 
 - [Exercise 1](/teaching/sm1402/exercise1.pdf) / [Solutions](/teaching/sm1402/solutions1.pdf)
-- [Exercise 2](/teaching/sm1402/exercise2.pdf)
+- [Exercise 2](/teaching/sm1402/exercise2.pdf) / [Solutions](/teaching/sm1402/solutions2.pdf)&mdash;PLEASE ALSO COMPLETE MY [FEEDBACK FORM](/feedback), THANKS!
 
 ### Assignemnts
 
@@ -58,3 +66,4 @@ Here are the HTML version of my lecture slides.
 - <s>Thu 23/1/2020 1000-1145 @ FOS M1.09</s>
 - <s>Mon 27/1/2020 1000-1100 @ FOS M1.09</s>
 - <s>Thu 30/1/2020 1045-1145 @ FOS M1.09</s>
+- <s>Sat 8/2/2020 0800-0945 @ FOS M1.09</s>
