@@ -3,7 +3,7 @@ title = "Investigating the effect of load carriage on soldiers’ performance us
 date = "2019-03-12"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["H Jamil"]
+authors = ["H Jamil", "A Salleh"]
 
 # Publication type.
 # Legend:
@@ -21,7 +21,7 @@ publication = "Manuscript in preparation"
 publication_short = ""
 
 # Abstract.
-abstract = "Investigating the effect of load carriage on soldiers’performance using latent variable models."
+abstract = "Soldiers are required to perform tasks that call upon a complex combination of their physical and cognitive capabilities. For example, soldiers are expected to communicate effectively with each other, operate specialised equipment, and maintain overall situational awareness—often while carrying a heavy load. From a planning and doctrine perspective, it is important for commanders to understand the relationship between load carriage and soldiers’ performance. Such information could help provide recommendations in advising future policies on training, operational safety, and future soldier systems requirements. To this end, the Royal Brunei Armed Forces (RBAF) conducted controlled experiments and collected numerous measurements intended to capture key soldier performance parameters. The structure of the data set provided several interesting challenges, namely 1) How does one define "performance"?; 2) How do we handle non-ignorable dropouts?; and 3) How do we appropriately take into account the longitudinal nature of the data (repeated measurements)? We propose a structural equation model to quantify a latent variable representing soldiers' abilities, while taking into consideration the non-random nature of the dropouts and time-varying effects. The main output of the study is to quantify the relationship between load carried versus performance. Additionally, modelling the dropouts allow us to also determine  expected "time to exhaustion" for any given weight carried."
 
 # Summary. An optional shortened abstract.
 summary = ""
