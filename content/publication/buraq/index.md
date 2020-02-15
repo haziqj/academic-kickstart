@@ -1,6 +1,6 @@
 +++
 title = "Investigating the effect of load carriage on soldiers’ performance using latent variable models"
-date = "2019-03-12"
+date = "2020-02-15"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["H Jamil", "A Salleh"]
