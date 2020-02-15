@@ -1,6 +1,6 @@
 +++
 title = "Bayesian variable selection for linear models using I-priors"
-date = "2019-12-16"
+date = "2020-02-28"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["H Jamil", "W Bergsma"]
