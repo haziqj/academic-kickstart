@@ -34,7 +34,7 @@ menu:
 
 CU-0304 students stop here; SM-1402 continue Weeks 8 to 14.
 
-- Tue 3/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 4)
+- **Tue 3/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 4)**
 - Tue 10/3/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 3)
 - Tue 17/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 4)
 - Tue 24/3/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 4)
@@ -46,10 +46,12 @@ CU-0304 students stop here; SM-1402 continue Weeks 8 to 14.
 
 Here are the HTML version of my lecture slides.
 
-- [Chapter 0](https://haziqj.github.io/sm1402/chapter0)
-- [Chapter 1](https://haziqj.github.io/sm1402/chapter1)
-- [Chapter 2](https://haziqj.github.io/sm1402/chapter2)
-- [Chapter 3](https://haziqj.github.io/sm1402/chapter3)
+- [Chapter 0](https://haziqj.github.io/sm1402/chapter0.html)
+- [Chapter 1](https://haziqj.github.io/sm1402/chapter1.html)
+- [Chapter 2](https://haziqj.github.io/sm1402/chapter2.html)
+- [Chapter 3](https://haziqj.github.io/sm1402/chapter3.html)
+- [Chapter 4](https://haziqj.github.io/sm1402/chapter4.html)
+- Chapter 5
 
 ### Exercise Sheets
 
