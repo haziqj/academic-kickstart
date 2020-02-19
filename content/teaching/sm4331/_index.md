@@ -35,11 +35,11 @@ For the full schedule, see this [link](/teaching/sm4331/sm4331-schedule).
 - <s>Mon 03/2/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 2)</s>
 - <s>Tue 04/2/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 2)</s>
 - <s>Mon 10/2/2020 0750-0940 @ FSM 2.17; Tutorial (Exercise 2)</s>
-- **Tue 18/2/2020 1410-1600 @ FSM 2.18; TEST (Chapters 1 & 2)**
+- <s>Tue 18/2/2020 1410-1600 @ FSM 2.18; TEST (Chapters 1 & 2)</s>
 
 Mid-semester break.
 
-- Mon 02/3/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 3)
+- **Mon 02/3/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 3)**
 - Tue 03/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 3)
 - Mon 09/3/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 3)
 - Tue 10/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 4)
