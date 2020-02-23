@@ -11,7 +11,7 @@ menu:
     weight: 30
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 10
+weight: 30
 ---
 
 ### 2019/20 mid-semester feedback response
