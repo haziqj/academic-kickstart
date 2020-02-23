@@ -32,19 +32,19 @@ weight: 10
 
 ##### Second half
 
-- Mon 02/3/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 3)
+- Mon 02/3/2020 0750-0940 @ FSM 2.17; Lecture (Recap & Test Solutions)
 - Tue 03/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 3)
 - Mon 09/3/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 3)
 - Tue 10/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 4)
 - Mon 16/3/2020 0750-0940 @ FSM 2.17; Tutorial (Exercise 3)
 - Tue 17/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 4)
 - Sat 23/3/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 4)
-- Tue 24/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 4)
+- Tue 24/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 5)
 - Mon 30/3/2020 0750-0940 @ FSM 2.17; Tutorial (Exercise 4)
 - Tue 31/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 5)
 - Mon 06/4/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 5)
-- Tue 07/4/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 5)
-- Mon 13/4/2020 0750-0940 @ FSM 2.17; Tutorial (Exercise 5)
+- Tue 07/4/2020 1410-1600 @ FSM 2.18; Tutorial (Exercise 5)
+- Mon 13/4/2020 0750-0940 @ FSM 2.17; Revision
 - Tue 14/4/2020 1410-1600 @ FSM 2.18; TEST (Chapters 3, 4 & 5)
 - Tue 21/4/2020 1410-1600 @ FSM 2.18; Revision Class 
 - Wed 22/4/2020 TBC; Revision Class (if needed)

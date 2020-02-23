@@ -7,7 +7,7 @@ weight: 1
 # Page metadata.
 title: SM-4331 Advanced Statistics
 date: "2020-01-12T00:00:00Z"
-lastmod: "2020-01-12T00:00:00Z"
+lastmod: "2020-02-24T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -39,7 +39,7 @@ For the full schedule, see this [link](/teaching/sm4331/sm4331-schedule).
 
 Mid-semester break.
 
-- **Mon 02/3/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 3)**
+- **Mon 02/3/2020 0750-0940 @ FSM 2.17; Lecture (Recap & Test Solutions)**
 - Tue 03/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 3)
 - Mon 09/3/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 3)
 - Tue 10/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 4)
@@ -59,8 +59,12 @@ Book an appointment to see me: https://calendly.com/haziqj/sm-4331
 
 ### Exercise Sheets
 
+- *NEW* [Exercise 0](/teaching/sm4331/exercise0.pdf)
 - [Exercise 1](/teaching/sm4331/exercise1.pdf) / [Solutions](/teaching/sm4331/solutions1.pdf)&mdash;EDIT: Q4 should read $Y_1,\dots,Y_m$ be a sample from $\text{Bern}(q)$. 
 - [Exercise 2](/teaching/sm4331/exercise2.pdf) / [Solutions](/teaching/sm4331/solutions2.pdf)&mdash;PLEASE ALSO COMPLETE MY [FEEDBACK FORM](/feedback), THANKS!
+- Exercise 3
+- Exercise 4
+- Exercise 5
 
 ### Statistical Tables
 
