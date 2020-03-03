@@ -7,7 +7,7 @@ weight: 1
 # Page metadata.
 title: SM-4331 Advanced Statistics
 date: "2020-01-12T00:00:00Z"
-lastmod: "2020-02-24T00:00:00Z"
+lastmod: "2020-03-03T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -68,7 +68,7 @@ Book an appointment to see me: https://calendly.com/haziqj/sm-4331
 
 ### Test and Solutions
 
-- [Test 1](/teaching/sm4331/test1.pdf) / [Test 1](/teaching/sm4331/test1soln.pdf)
+- [Test 1](/teaching/sm4331/test1.pdf) / [Solutions](/teaching/sm4331/test1soln.pdf)
 
 ### Statistical Tables
 
