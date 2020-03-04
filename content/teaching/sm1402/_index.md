@@ -34,8 +34,8 @@ menu:
 
 CU-0304 students stop here; SM-1402 continue Weeks 8 to 14.
 
-- **Tue 3/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 4)**
-- Tue 10/3/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 3)
+- <s>Tue 3/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 4)</s>
+- **Tue 10/3/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 3)**
 - Tue 17/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 4)
 - Tue 24/3/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 4)
 - Tue 31/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 5)
@@ -58,15 +58,14 @@ Here are the HTML version of my lecture slides.
 - [Exercise 1](/teaching/sm1402/exercise1.pdf) / [Solutions](/teaching/sm1402/solutions1.pdf)
 - [Exercise 2](/teaching/sm1402/exercise2.pdf) / [Solutions](/teaching/sm1402/solutions2.pdf)
 - [Exercise 3](/teaching/sm1402/exercise3.pdf)
+- [Exercise 4](/teaching/sm1402/exercise4.pdf)
 
 ### Assignemnts
 
-- [Assignment 1](/teaching/sm1402/assignment1.pdf)--DUE: 3/3/2020 12:00pm
+- [Assignment 1](/teaching/sm1402/assignment1.pdf) / [Solutions](/teaching/sm1402/assignment1soln.pdf)
 
 ### Office Hours
 
-- <s>Sat 18/1/2020 0800-0945 @ FOS M1.09</s>
-- <s>Thu 23/1/2020 1000-1145 @ FOS M1.09</s>
-- <s>Mon 27/1/2020 1000-1100 @ FOS M1.09</s>
-- <s>Thu 30/1/2020 1045-1145 @ FOS M1.09</s>
-- <s>Sat 8/2/2020 0800-0945 @ FOS M1.09</s>
+- Mon 9/3/2020 1000-1200 @ FOS M1.09
+- Mon 16/3/2020 1000-1200 @ FOS M1.09
+
