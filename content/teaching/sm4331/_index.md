@@ -51,7 +51,7 @@ Book an appointment to see me: https://calendly.com/haziqj/sm-4331
 - [Chapter 1](/teaching/sm4331/chapter1-handout.pdf)
 - [Chapter 2](/teaching/sm4331/chapter2-handout.pdf)
 - [Chapter 3](/teaching/sm4331/chapter3-handout.pdf)
-- Chapter 4
+- *NEW* [Chapter 4](/teaching/sm4331/chapter4-handout.pdf)
 - Chapter 5
 
 ### Exercise Sheets
