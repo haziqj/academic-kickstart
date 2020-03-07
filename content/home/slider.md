@@ -16,6 +16,20 @@ height = "300px"
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
+  title = "UBD Postdoc Scheme"
+  content = "UBD is offering a Postdoctoral Fellow Scheme to outstanding early and mid-career researchers."
+  align = "center"
+
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "headers/postdoc.png"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.8  # Darken the image. Value in range 0-1.
+
+  cta_label = "Apply Now"
+  cta_url = "files/postdocubd.pdf"
+  cta_icon_pack = "fas"
+  cta_icon = "chalkboard-teacher"
+
+[[item]]
   title = "FOS (Maths) DY Website"
   content = "Students from FOS (Maths major) can visit the DY website for updates and information related to their DY"
   align = "center"
