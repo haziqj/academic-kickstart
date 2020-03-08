@@ -7,7 +7,7 @@ weight: 1
 # Page metadata.
 title: SM-4331 Advanced Statistics
 date: "2020-01-12T00:00:00Z"
-lastmod: "2020-03-03T00:00:00Z"
+lastmod: "2020-03-08T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -56,10 +56,10 @@ Book an appointment to see me: https://calendly.com/haziqj/sm-4331
 
 ### Exercise Sheets
 
-- *NEW* [Exercise 0](/teaching/sm4331/exercise0.pdf)
+- [Exercise 0](/teaching/sm4331/exercise0.pdf)
 - [Exercise 1](/teaching/sm4331/exercise1.pdf) / [Solutions](/teaching/sm4331/solutions1.pdf)&mdash;EDIT: Q4 should read $Y_1,\dots,Y_m$ be a sample from $\text{Bern}(q)$. 
 - [Exercise 2](/teaching/sm4331/exercise2.pdf) / [Solutions](/teaching/sm4331/solutions2.pdf)<!-- &mdash;PLEASE ALSO COMPLETE MY [FEEDBACK FORM](/feedback), THANKS! -->
-- Exercise 3
+- *NEW* [Exercise 3](/teaching/sm4331/exercise3.pdf)
 - Exercise 4
 - Exercise 5
 
