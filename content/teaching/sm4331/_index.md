@@ -24,7 +24,7 @@ math: true
 markup: mmark    
 ---
 
-Before I get access to Canvas, use this website to obtain relevant material for the course.
+Use this website to obtain relevant material for the course.
 
 ### Schedule
 
@@ -32,12 +32,12 @@ For the full schedule, see this [link](/teaching/sm4331/sm4331-schedule).
 
 - <s>Mon 02/3/2020 0750-0940 @ FSM 2.17; Lecture (Recap & Test Solutions)</s>
 - <s>Tue 03/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 3)</s>
-- **Mon 09/3/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 3)**
-- Tue 10/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 4)
-- Mon 16/3/2020 0750-0940 @ FSM 2.17; Tutorial (Exercise 3)
+- <s>Mon 09/3/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 3)</s>
+- <s>Tue 10/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 4)</s>
+- **Mon 16/3/2020 0750-0940 @ FSM 2.17; Tutorial (Exercise 3)**
 - Tue 17/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 4)
-- Sat 23/3/2020 0750-0940 @ FSM 2.17; Lecture (Chapter 4)
-- Tue 24/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 5)
+- Tue 24/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 4)
+- Sat 28/3/2020 1000-1200 @ FSM 2.17; Lecture (Chapter 5)
 - Mon 30/3/2020 0750-0940 @ FSM 2.17; Tutorial (Exercise 4)
 - Tue 31/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 5)
 

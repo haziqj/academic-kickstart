@@ -35,9 +35,9 @@ menu:
 CU-0304 students stop here; SM-1402 continue Weeks 8 to 14.
 
 - <s>Tue 3/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 4)</s>
-- **Tue 10/3/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 3)**
-- Tue 17/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 4)
-- Tue 24/3/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 4)
+- <s>Tue 10/3/2020 0950-1140 @ FSM 2.18; Tutorial (Assignemnt Solutions)</s>
+- **Tue 17/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 4)**
+- Tue 24/3/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 3 & 4)
 - Tue 31/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 5)
 - Tue 7/4/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 5)
 - Tue 14/4/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 5)
