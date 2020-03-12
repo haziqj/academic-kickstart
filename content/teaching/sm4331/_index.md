@@ -60,7 +60,7 @@ Book an appointment to see me: https://calendly.com/haziqj/sm-4331
 - [Exercise 1](/teaching/sm4331/exercise1.pdf) / [Solutions](/teaching/sm4331/solutions1.pdf)&mdash;EDIT: Q4 should read $Y_1,\dots,Y_m$ be a sample from $\text{Bern}(q)$. 
 - [Exercise 2](/teaching/sm4331/exercise2.pdf) / [Solutions](/teaching/sm4331/solutions2.pdf)<!-- &mdash;PLEASE ALSO COMPLETE MY [FEEDBACK FORM](/feedback), THANKS! -->
 - *NEW* [Exercise 3](/teaching/sm4331/exercise3.pdf)
-- Exercise 4
+- *NEW* [Exercise 4](/teaching/sm4331/exercise4.pdf)
 - Exercise 5
 
 ### Test and Solutions
