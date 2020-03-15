@@ -20,7 +20,7 @@ menu:
     name: Overview
     weight: 1
 ---
-
+<!-- 
 ### Schedule
 
 - <s>*SM-1402 only*--Tue 07/1/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 0)</s>
@@ -40,7 +40,7 @@ CU-0304 students stop here; SM-1402 continue Weeks 8 to 14.
 - Tue 24/3/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 3 & 4)
 - Tue 31/3/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 5)
 - Tue 7/4/2020 0950-1140 @ FSM 2.18; Lecture (Chapter 5)
-- Tue 14/4/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 5)
+- Tue 14/4/2020 0950-1140 @ FSM 2.18; Tutorial (Exercise 5) -->
 
 ### Lecture Slides
 
@@ -63,9 +63,9 @@ Here are the HTML version of my lecture slides.
 ### Assignemnts
 
 - [Assignment 1](/teaching/sm1402/assignment1.pdf) / [Solutions](/teaching/sm1402/assignment1soln.pdf)
-
+<!-- 
 ### Office Hours
 
 - Mon 9/3/2020 1000-1200 @ FOS M1.09
-- Mon 16/3/2020 1000-1200 @ FOS M1.09
+- Mon 16/3/2020 1000-1200 @ FOS M1.09 -->
 
