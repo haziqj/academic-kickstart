@@ -7,7 +7,7 @@ weight: 1
 # Page metadata.
 title: SM-4331 Advanced Statistics
 date: "2020-01-12T00:00:00Z"
-lastmod: "2020-03-08T00:00:00Z"
+lastmod: "2020-03-15T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -26,7 +26,7 @@ markup: mmark
 
 Use this website to obtain relevant material for the course.
 
-### Schedule
+<!-- ### Schedule
 
 For the full schedule, see this [link](/teaching/sm4331/sm4331-schedule).
 
@@ -39,7 +39,7 @@ For the full schedule, see this [link](/teaching/sm4331/sm4331-schedule).
 - Tue 24/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 4)
 - Sat 28/3/2020 1000-1200 @ FSM 2.17; Lecture (Chapter 5)
 - Mon 30/3/2020 0750-0940 @ FSM 2.17; Tutorial (Exercise 4)
-- Tue 31/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 5)
+- Tue 31/3/2020 1410-1600 @ FSM 2.18; Lecture (Chapter 5) -->
 
 ### Office Hours
 
