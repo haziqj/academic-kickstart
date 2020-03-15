@@ -51,7 +51,7 @@ Here are the HTML version of my lecture slides.
 - [Chapter 2](https://haziqj.github.io/sm1402/chapter2.html)
 - [Chapter 3](https://haziqj.github.io/sm1402/chapter3.html)
 - [Chapter 4](https://haziqj.github.io/sm1402/chapter4.html)
-- Chapter 5
+- <s>Chapter 5</s>
 
 ### Exercise Sheets
 
@@ -63,9 +63,15 @@ Here are the HTML version of my lecture slides.
 ### Assignemnts
 
 - [Assignment 1](/teaching/sm1402/assignment1.pdf) / [Solutions](/teaching/sm1402/assignment1soln.pdf)
+- *COMING SOON* Assignment 2
+
 <!-- 
 ### Office Hours
 
 - Mon 9/3/2020 1000-1200 @ FOS M1.09
 - Mon 16/3/2020 1000-1200 @ FOS M1.09 -->
+
+### Statistical Tables
+
+- [PDF](/teaching/sm1402/stat-tables.pdf)
 
