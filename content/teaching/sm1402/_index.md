@@ -73,5 +73,5 @@ Here are the HTML version of my lecture slides.
 
 ### Statistical Tables
 
-- [PDF](/teaching/sm1402/stat-tables.pdf)
+- [PDF](https://haziqj.github.io/stat-tables/stat-tables.pdf)
 

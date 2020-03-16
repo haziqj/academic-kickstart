@@ -69,7 +69,7 @@ Book an appointment to see me: https://calendly.com/haziqj/sm-4331
 
 ### Statistical Tables
 
-- [PDF](/teaching/sm4331/stat-tables.pdf)
+- [PDF](https://haziqj.github.io/stat-tables/stat-tables.pdf)
 
 
 
