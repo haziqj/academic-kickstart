@@ -7,7 +7,7 @@ weight: 1
 # Page metadata.
 title: SM-1402 Basic Statistics
 date: "2020-01-17T00:00:00Z"
-lastmod: "2020-01-17T00:00:00Z"
+lastmod: "2020-04-06T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -57,7 +57,7 @@ Here are the HTML version of my lecture slides.
 
 - [Exercise 1](/teaching/sm1402/exercise1.pdf) / [Solutions](/teaching/sm1402/solutions1.pdf)
 - [Exercise 2](/teaching/sm1402/exercise2.pdf) / [Solutions](/teaching/sm1402/solutions2.pdf)
-- [Exercise 3](/teaching/sm1402/exercise3.pdf)
+- [Exercise 3](/teaching/sm1402/exercise3.pdf) / [Solutions](/teaching/sm1402/solutions3.pdf)
 - [Exercise 4](/teaching/sm1402/exercise4.pdf)
 
 ### Assignemnts
