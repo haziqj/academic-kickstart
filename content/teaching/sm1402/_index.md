@@ -63,7 +63,8 @@ Here are the HTML version of my lecture slides.
 ### Assignemnts
 
 - [Assignment 1](/teaching/sm1402/assignment1.pdf) / [Solutions](/teaching/sm1402/assignment1soln.pdf)
-- *COMING SOON* Assignment 2
+- [Assignment 2](/teaching/sm1402/assignment2.pdf) 
+- [Assignment 3](/teaching/sm1402/assignment3.pdf) 
 
 <!-- 
 ### Office Hours
