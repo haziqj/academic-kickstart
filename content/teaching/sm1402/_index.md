@@ -58,7 +58,7 @@ Here are the HTML version of my lecture slides.
 - [Exercise 1](/teaching/sm1402/exercise1.pdf) / [Solutions](/teaching/sm1402/solutions1.pdf)
 - [Exercise 2](/teaching/sm1402/exercise2.pdf) / [Solutions](/teaching/sm1402/solutions2.pdf)
 - [Exercise 3](/teaching/sm1402/exercise3.pdf) / [Solutions](/teaching/sm1402/solutions3.pdf)
-- [Exercise 4](/teaching/sm1402/exercise4.pdf)
+- [Exercise 4](/teaching/sm1402/exercise4.pdf) / [Solutions](/teaching/sm1402/solutions4.pdf)
 
 ### Assignemnts
 
