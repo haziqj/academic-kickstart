@@ -66,6 +66,8 @@ Book an appointment to see me: https://calendly.com/haziqj/sm-4331
 ### Test and Solutions
 
 - [Test 1](/teaching/sm4331/test1.pdf) / [Solutions](/teaching/sm4331/test1soln.pdf)
+- [Test 2](/teaching/sm4331/test2.pdf)
+
 
 ### Statistical Tables
 
