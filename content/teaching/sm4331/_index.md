@@ -24,6 +24,12 @@ math: true
 markup: mmark    
 ---
 
+# EXAM
+
+13/5/2020 @ 2.00 - 4.00 pm
+
+[DOWNLOAD](/teaching/sm4331/exam.pdf)
+
 Use this website to obtain relevant material for the course.
 
 <!-- ### Schedule
