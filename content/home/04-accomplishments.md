@@ -19,7 +19,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  title = "Supreme Commander of the Royal Brunei Armed Forces Scholarship"
+  title = "Best Student Award 2005"
+  organization = "<i>Persekutuan Guru-Guru Melayu Brunei (PGGMB)</i>"
+  certificate_url = ""
+  date_start = "2006-06-30"
+  date_end = ""
+  description = "Awarded for excellence in Brunei-Cambridge GCE A Level examinations."
+
+[[item]]
+  title = "<a href='http://www.scholarship.mindef.gov.bn/Theme/Home.aspx'>Supreme Commander of the Royal Brunei Armed Forces Scholarship</a>"
   organization = "Ministry of Defence, Brunei"
   certificate_url = ""
   date_start = "2006-10-01"

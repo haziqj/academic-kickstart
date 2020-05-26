@@ -47,7 +47,12 @@ date_format = "Jan 2006"
   date_start = "2019-09-09"
   date_end = ""
   description = """
-  I will be one of the Discovery Year Advisors (Mathematics) for the academic year 2019-2020, in addition to teaching duties.
+  Teaching:
+  - SM-1402 Basic Statistics
+  - SM-2401 Geometry
+  - SM-4331 Advanced Statistics
+
+  I am one of the Discovery Year (DY) Advisors for Mathematics.
   """
 
 +++
