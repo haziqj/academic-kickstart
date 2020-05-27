@@ -21,7 +21,6 @@ menu:
     weight: 1
 
 math: true
-markup: mmark    
 ---
 
 # EXAM

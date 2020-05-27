@@ -42,7 +42,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Assistant Professor in Statistics"
   company = "_Universiti Brunei Darussalam_ (UBD)"
-  company_url = ""
+  company_url = "https://ubd.edu.bn"
   location = "Brunei"
   date_start = "2019-09-09"
   date_end = ""
@@ -52,7 +52,7 @@ date_format = "Jan 2006"
   - SM-2401 Geometry
   - SM-4331 Advanced Statistics
 
-  I am one of the Discovery Year (DY) Advisors for Mathematics.
+  I am also one of the Discovery Year (DY) Advisors for Mathematics.
   """
 
 +++

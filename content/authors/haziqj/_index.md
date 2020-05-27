@@ -74,7 +74,7 @@ user_groups:
 - Visitors
 ---
 
-I am an Assistant Professor in Statistics at [_Universiti Brunei Darussalam_ (UBD)](http://www.ubd.edu.bn), a leading higher education institution in Brunei.
+I am an Assistant Professor in Statistics at _Universiti Brunei Darussalam_, a leading higher education institution in Brunei.
 My research interests lie in statistical theory, methods and computation, with a special inclination towards social science applications.
 <!-- I am attached to the Department of Mathematics in the Faculty of Science (FOS), and I run statistics modules for our undergraduate and masters programmes. -->
 
@@ -88,5 +88,5 @@ I also obtained an MSc in Statistics from LSE in 2014.
 
 I graduated from Warwick University, completing the 4-year MMORSE degree in 2010. As my final year project, I used Bradley-Terry models applied to English Premier League football data. This project was supervised by [Prof. David Firth](http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/firth/).
 
-Previously, I was a Research Officer at the [Centre of Science & Technology, Research & Development (CSTRAD)](https://www2.mindef.gov.bn/cstrad/), Ministry of Defence, Brunei.
+Previously, I was a Research Officer at the Centre of Science & Technology, Research & Development (CSTRAD), Ministry of Defence, Brunei.
 My primary task was to provide data analysis and decision support to strategic acquisition projects, and assist in statistical analyses for defence-related research.
