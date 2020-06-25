@@ -43,10 +43,10 @@ date_format = "Jan 2006"
   description = ""
 
 [[item]]
-  title = "Arnold Zellner Thesis Award in Econometrics and Statistics (honourable mention)"
+  title = "<a href='https://community.amstat.org/businessandeconomicstatisticssection/new-item/new-item2'>Arnold Zellner Thesis Award in Econometrics and Statistics (honourable mention)</a>"
   organization = "American Statistical Association (Business and Economic Statistics Section)"
-  certificate_url = "https://community.amstat.org/businessandeconomicstatisticssection/new-item/new-item2"
-  date_start = "2020-06"
+  certificate_url = ""
+  date_start = "2020-08-02"
   date_end = ""
   description = "The Zellner award is given for the best PhD thesis dealing with an applied problem in Business and Economic Statistics. It is intended to recognize outstanding work by promising young researchers in the field."
 
