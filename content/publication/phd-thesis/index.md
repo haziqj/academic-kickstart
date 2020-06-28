@@ -55,7 +55,8 @@ projects = ["my-phd"]
 slides = ""
 
 # Links (optional).
-url_pdf = "/files/phd/phd-thesis-final-dae7107.pdf"
+url_pdf =  "http://etheses.lse.ac.uk/3828/1/Jamil__regression-modelling.pdf" 
+# "/files/phd/phd-thesis-final-dae7107.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
