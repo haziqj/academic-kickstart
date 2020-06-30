@@ -1,7 +1,7 @@
 ---
 title: Getting started with R
 summary: Part 2--Learn about the data science framework, including importing, summarising, and visualising data using R.
-authors: [H Jamil]
+authors: ["Haziq Jamil"]
 tags: []
 categories: []
 date: "2019-07-08T00:00:00Z"

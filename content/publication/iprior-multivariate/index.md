@@ -3,7 +3,7 @@ title = "Regression modelling with I-priors: Applications to functional, multile
 date = "2019-12-16"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["W Bergsma", "H Jamil"]
+authors = ["Wicher Bergsma", "Haziq Jamil"]
 
 # Publication type.
 # Legend:

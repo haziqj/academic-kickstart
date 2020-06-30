@@ -3,7 +3,7 @@ title = "iprior: An R Package for Regression Modelling using I-priors"
 date = "2017-12-18"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["H Jamil", "W Bergsma"]
+authors = ["Haziq Jamil", "Wicher Bergsma"]
 
 # Publication type.
 # Legend:

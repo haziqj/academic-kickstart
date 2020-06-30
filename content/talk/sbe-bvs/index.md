@@ -11,7 +11,7 @@ all_day = false
 publishDate = 2019-10-29T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["H Jamil"]
+authors = ["Haziq Jamil"]
 
 # Location of event.
 location = "G.10, UBDSBE, Brunei"

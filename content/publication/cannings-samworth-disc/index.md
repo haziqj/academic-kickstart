@@ -3,7 +3,7 @@ title = "Discussion of Random Projection Ensemble Classification by Cannings and
 date = "2017-03-30"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["W Bergsma", "H Jamil"]
+authors = ["Wicher Bergsma", "Haziq Jamil"]
 
 # Publication type.
 # Legend:

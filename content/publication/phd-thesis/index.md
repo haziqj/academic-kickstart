@@ -3,7 +3,7 @@ title = "Regression modelling using priors depending on Fisher information covar
 date = "2018-10-11"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["H Jamil"]
+authors = ["Haziq Jamil"]
 
 # Publication type.
 # Legend:

@@ -3,7 +3,7 @@ title = "Evaluating Diagnostic Tests and Quantifying Prevalence for Tropical Inf
 date = "2019-03-08"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["A Koukounari",  "H Jamil", "E Erosheva", "I Moustaki"]
+authors = ["Artemis Koukounari",  "Haziq Jamil", "Elena Erosheva", "Irini Moustaki"]
 
 # Publication type.
 # Legend:

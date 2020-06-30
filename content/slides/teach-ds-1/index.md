@@ -1,7 +1,7 @@
 ---
 title: Introductory Data Science using R
 summary: Learn about the data science framework, including importing, summarising, and visualising data using R.
-authors: [H Jamil]
+authors: ["Haziq Jamil"]
 tags: []
 categories: []
 date: "2019-07-09T00:00:00Z"

@@ -3,7 +3,7 @@ title = "Analysis of paired comparison data using Bradley-Terry models with appl
 date = "2010-07-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["H Jamil"]
+authors = ["Haziq Jamil"]
 
 # Publication type.
 # Legend:

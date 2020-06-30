@@ -74,7 +74,7 @@ user_groups:
 - Visitors
 ---
 
-I am an Assistant Professor in Statistics at _Universiti Brunei Darussalam_, a leading higher education institution in Brunei.
+I am an Assistant Professor in Statistics at _Universiti Brunei Darussalam_, the leading higher education institution in Brunei.
 My research interests lie in statistical theory, methods and computation, with a special inclination towards social science applications.
 <!-- I am attached to the Department of Mathematics in the Faculty of Science (FOS), and I run statistics modules for our undergraduate and masters programmes. -->
 
