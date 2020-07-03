@@ -3,7 +3,7 @@ title = "Investigating the effect of load carriage on soldiers’ performance us
 date = "2020-02-15"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Haziq Jamil", "Ayesha Salleh"]
+authors = ["Haziq Jamil", "Ayesha Salleh", "Le Thieng Chan"]
 
 # Publication type.
 # Legend:
