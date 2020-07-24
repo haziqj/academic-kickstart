@@ -1,9 +1,9 @@
 +++
-title = "Evaluating Diagnostic Tests and Quantifying Prevalence for Tropical Infectious Diseases: A Paradigm of Latent Class Modelling Approaches With and Without a Gold Standard for Schistosomiasis Diagnosis"
+title = "Modeling and design issues for schistosomiasis diagnostic studies"
 date = "2019-03-08"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Artemis Koukounari",  "Haziq Jamil", "Elena Erosheva", "Irini Moustaki"]
+authors = ["Artemis Koukounari",  "Haziq Jamil", "Elena Erosheva", "Clive Shiff", "Irini Moustaki"]
 
 # Publication type.
 # Legend:
@@ -21,7 +21,7 @@ publication = "Manuscript in submission"
 publication_short = ""
 
 # Abstract.
-abstract = "Despite the successes of the Millennium Development Goals era, infectious diseases still remain a major threat to humankind with severe burden of mor- bidity and mortality especially in low and middle income countries (LMICs). Availability of accurate diagnosis constitutes an essential component in activities to combat these diseases such as within programs evaluating the effectiveness of interventions including verification of pathogens, elimination and detecting infections with markers of drug resistance. Molecular assays constitute the gold standard for the diagnosis of several infectious diseases but the lack of sufficient funds, suitably trained staff and laboratory supplies still hinders their use in LMICs. Schistosomiasis, is a long-lived, chronic, and highly debilitating tropical infectious disease caused by schistosome parasites, encountering some of these same challenges.\n\nThe aims of the current article are threefold. First, to study the effect that violations of model assumptions have on estimated parameters such as the prevalence of a disease, specificity and sensitivity of diagnostic tests. Second, to discuss extensions of the classical latent class model to account for local dependencies and zero-inflation (large non-pathological group). Third, to provide methodological guidance on the available modelling approaches for estimating test accuracy and disease prevalence in the absolute or partial absence of a gold standard for tropical infectious diseases using the paradigm of schistosomiasis by cautioning the practitioner not to blindly apply methods for estimating diagnostic error without a gold standard."
+abstract = "Various global health initiatives are currently advocating the elimination of schistosomiasis within the next decade. Schistosomiasis is a highly debilitating tropical infectious disease with severe burden of morbidity and thus operational research accurately evaluating diagnostics that quantify the epidemic status for guiding effective strategies is essential. Latent class models (LCMs) have been generally considered in epidemiology and in particular in recent schistosomiasis diagnostic studies as a flexible tool for evaluating diagnostics because assessing the true disease status (via a gold standard) is not possible. However, within the biostatistics literature, classical LCM have already been criticized for real-life problems under violation of the conditional independence (CI) assumption and when applied to a small number of diagnostics (i.e. most often 3-5 diagnostic tests). Solutions of relaxing the CI assumption and accounting for zero-inflation, as well as collecting partial gold standard information, have been proposed, offering the potential for more robust model estimates. In the current article, we examined such approaches in the context of schistosomiasis via analysis of two real datasets and extensive simulation studies. Our main conclusions highlighted poor model fit in low prevalence settings and the necessity of collecting partial gold standard information in order to improve the accuracy and reduce bias of sensitivity and specificity estimates."
 
 # Summary. An optional shortened abstract.
 summary = ""
@@ -46,7 +46,7 @@ projects = ["schis"]
 
 # Links (optional).
 url_pdf = ""
-url_preprint = "/files/kjem-paper.pdf"
+url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
@@ -74,3 +74,13 @@ math = false
   focal_point = ""
 +++
 
+### Author Summary
+
+Accurate schistosomiasis diagnosis is essential to assess the impact of large scale and repeated mass drug administration to control or even eliminate this disease. However, in schistosomiasis diagnostic studies, several inherent study design issues pose a real challenge for the currently available statistical tools used for diagnostic modelling and associated data analysis and conclusions. 
+More specifically, those study design issues are: the inclusion of small number of diagnostic tests (i.e. most often five); 
+the lack of a gold standard due to mainly lack of appropriate equipment, 
+the variability of certain methods due to biological phenomena and training of technicians across the endemic countries because of scarce financial resources,
+the current use of relatively small sample sizes in relevant studies due to lack of research funding, 
+and finally the differing levels of prevalence of the studied disease even within the same area of one endemic country. 
+The current study aims to caution practitioners from blindly applying statistical models with small number of diagnostic tests and sample sizes, proposing design guidelines of future schistosomiasis diagnostic accuracy studies with recommendations for further research. 
+While our study is centred around the diagnosis of schistosomiasis, we feel that the recommendations can be adapted to other major tropical infectious diseases as well.
