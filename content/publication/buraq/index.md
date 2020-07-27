@@ -1,5 +1,5 @@
 +++
-title = "Investigating the effect of load carriage on soldiers’ performance using latent variable models"
+title = "Investigating the effect of load carriage on soldiers’ performances using Bayesian structural equation models"
 date = "2020-02-15"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
