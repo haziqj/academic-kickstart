@@ -8,7 +8,7 @@ weight: 1
 title: SM-4331 Advanced Statistics
 date: "2020-01-12T00:00:00Z"
 lastmod: "2020-04-06T00:00:00Z"
-draft: false  # Is this a draft? true/false
+draft: true  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
 
@@ -64,7 +64,7 @@ Book an appointment to see me: https://calendly.com/haziqj/sm-4331
 - [Exercise 0](/teaching/sm4331/exercise0.pdf)
 - [Exercise 1](/teaching/sm4331/exercise1.pdf) / [Solutions](/teaching/sm4331/solutions1.pdf)&mdash;EDIT: Q4 should read $Y_1,\dots,Y_m$ be a sample from $\text{Bern}(q)$. 
 - [Exercise 2](/teaching/sm4331/exercise2.pdf) / [Solutions](/teaching/sm4331/solutions2.pdf)<!-- &mdash;PLEASE ALSO COMPLETE MY [FEEDBACK FORM](/feedback), THANKS! -->
-- [Exercise 3](/teaching/sm4331/exercise3.pdf) / [Solutions](/teaching/sm4331/solutions3.pdf)&mdash;EDIT: Typo in the definition of the top $a$ point of the $\chi^2$ distribution in Q6(b). It should read $\Prob\big(Y > \chi^2_{k}(a)\big) = a$.
+- [Exercise 3](/teaching/sm4331/exercise3.pdf) / [Solutions](/teaching/sm4331/solutions3.pdf)&mdash;EDIT: Typo in the definition of the top $a$ point of the $\chi^2$ distribution in Q6(b). It should read $P\big(Y > \chi^2_{k}(a)\big) = a$.
 - [Exercise 4](/teaching/sm4331/exercise4.pdf) / [Solutions](/teaching/sm4331/solutions4.pdf) 
 - [Exercise 5](/teaching/sm4331/exercise5.pdf)  / [Solutions](/teaching/sm4331/solutions5.pdf) 
 
