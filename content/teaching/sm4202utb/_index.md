@@ -69,12 +69,24 @@ Here are the topics I intend to cover for this course. This may change depending
 
 <!-- For the full schedule, see this [link](/teaching/sm4331/sm4331-schedule).
  -->
-
+<!-- 
 - W3 Tue 11/8/2020 1330-1530 @ 1G.16; Lecture (Chapter 1)
 - W3 Wed 12/8/2020 1330-1530 @ 1A.60; Lecture (Chapter 1)
 - W4 Tue 18/8/2020 1330-1530 @ 1G.16; Lecture (Chapter 2)
 - W4 Wed 19/8/2020 1330-1530 @ 1A.60; Tutorial (Exercise 1)
 - W4 Sat 22/8/2020 0800-1200 @ TBC; Lecture (Chapter 2)
+- W5 Tue 25/8/2020 1330-1530 @ 1G.16; Lecture (Chapter 2)
+- W5 Wed 26/8/2020 1330-1530 @ 1A.60; Lecture (Chapter 2)
+- W5 Sat 29/8/2020 0800-1200 @ TBC; Tutorial (Exercise 2)
+- W6 Tue 25/8/2020 1330-1530 @ 1G.16; Lecture (Chapter 3)
+- W6 Wed 26/8/2020 1330-1530 @ 1A.60; Lecture (Chapter 3)
+- W6 Sat 29/8/2020 0800-1200 @ TBC; Tutorial (Exercise 3)
+- W7 Tue 25/8/2020 1330-1530 @ 1G.16; Lecture (Chapter 4)
+- W7 Wed 26/8/2020 1330-1530 @ 1A.60; Lecture (Chapter 4)
+- W7 Sat 29/8/2020 0800-1200 @ TBC; Tutorial (Exercise 4) -->
+
+- W4 Tue 18/8/2020 1330-1530 @ 1G.16; Lecture (Chapter 1)
+- W4 Wed 19/8/2020 1330-1530 @ 1A.60; Tutorial (Chapter 1, 2)
 - W5 Tue 25/8/2020 1330-1530 @ 1G.16; Lecture (Chapter 2)
 - W5 Wed 26/8/2020 1330-1530 @ 1A.60; Lecture (Chapter 2)
 - W5 Sat 29/8/2020 0800-1200 @ TBC; Tutorial (Exercise 2)
