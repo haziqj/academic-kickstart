@@ -104,7 +104,7 @@ TBA
 ### Exercise Sheets
 
 - [Exercise 1](/teaching/sm4202utb/sm4202-ex1.pdf) / Solutions
-<!-- - [Exercise 2](/teaching/sm4202utb/sm4202-ex2.pdf) / Solutions -->
+- [Exercise 2](/teaching/sm4202utb/sm4202-ex2.pdf) / Solutions
 
 
 ### Statistical Tables
