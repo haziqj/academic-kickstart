@@ -4,7 +4,7 @@ linktitle: Getting Started with R
 toc: true
 type: docs
 date: "2019-07-09T00:00:00+08:00"
-lastmod: "2019-07-11T00:00:00+08:00"
+lastmod: "2020-08-17T00:00:00+08:00"
 draft: false
 menu:
   datascience:
@@ -16,6 +16,8 @@ weight: 1
 output:
   html_document:
     keep_md: yes
+    
+math: true
 ---
 
 
@@ -228,6 +230,73 @@ mean(weight)
 ## [1] 79.78
 ```
 
+## Matrices
+
+Another form of data in `R` are matrices. A matrix is formed using the `matrix()` function, which takes in a vector argument, plus the number of rows and number of columns the matrix should be. For example, to create a $4 \times 3$ matrix, one types
+
+
+```r
+mat <- matrix(1:12, nrow = 4, ncol = 3)
+mat
+##      [,1] [,2] [,3]
+## [1,]    1    5    9
+## [2,]    2    6   10
+## [3,]    3    7   11
+## [4,]    4    8   12
+```
+
+Notice that the matrix is built column by column. If we wish to specify that the matrix be built by filling in the rows first, we use the option `byrow = TRUE`.
+
+
+```r
+mat <- matrix(1:12, nrow = 4, byrow = TRUE)
+mat
+##      [,1] [,2] [,3]
+## [1,]    1    2    3
+## [2,]    4    5    6
+## [3,]    7    8    9
+## [4,]   10   11   12
+```
+
+In the above, we skipped the `ncol` argument as it is not needed. If it is unambiguous enough, then you can skip one of `nrow` or `ncol`, but it is certainly good practice to specify both in order to avoid silly mistakes. 
+
+Remember, `R` practices the recycling rule, and this applies even to matrices. The following code will not given an error, but it may not have the intended result.
+
+
+```r
+mat <- matrix(1:3, nrow = 10, ncol = 3, byrow = TRUE)
+mat
+##       [,1] [,2] [,3]
+##  [1,]    1    2    3
+##  [2,]    1    2    3
+##  [3,]    1    2    3
+##  [4,]    1    2    3
+##  [5,]    1    2    3
+##  [6,]    1    2    3
+##  [7,]    1    2    3
+##  [8,]    1    2    3
+##  [9,]    1    2    3
+## [10,]    1    2    3
+```
+
+A very useful class of matrices that you would often encounter is diagonal matrices. These are built using the `diag()` function in `R`.
+
+
+```r
+diag(3)  # the 3 x3 identity matrix
+##      [,1] [,2] [,3]
+## [1,]    1    0    0
+## [2,]    0    1    0
+## [3,]    0    0    1
+diag(1:5)  # a diagonal matrix with diagonal entries 1, 2, ..., 5
+##      [,1] [,2] [,3] [,4] [,5]
+## [1,]    1    0    0    0    0
+## [2,]    0    2    0    0    0
+## [3,]    0    0    3    0    0
+## [4,]    0    0    0    4    0
+## [5,]    0    0    0    0    5
+```
+
 ## Data frames
 
 A data frame is an R object that can be thought of as representing a data set. 
@@ -266,6 +335,124 @@ sheep$backlength <- c(130.4, 100.2, 109.4, 140.6, 101.4)
 
 Look at the data in spreadsheet format to check what has happened.
 
+## Lists
+
+Lists in `R` are objects which can hold various kinds of objects together in one list. The easiest way to explain this is to construct a list:
+
+
+```r
+my_list <- list(
+  a = 1,
+  b = diag(1:3),
+  c = lm(rnorm(100) ~ 1 + rt(100, 1)),
+  d = plot(rnorm(10), ),
+  e = sheep
+)
+str(my_list)
+## List of 5
+##  $ a: num 1
+##  $ b: int [1:3, 1:3] 1 0 0 0 2 0 0 0 3
+##  $ c:List of 12
+##   ..$ coefficients : Named num [1:2] -0.13641 0.00289
+##   .. ..- attr(*, "names")= chr [1:2] "(Intercept)" "rt(100, 1)"
+##   ..$ residuals    : Named num [1:100] 1.814 -0.203 0.631 -0.449 -2.427 ...
+##   .. ..- attr(*, "names")= chr [1:100] "1" "2" "3" "4" ...
+##   ..$ effects      : Named num [1:100] 1.389 1.013 0.465 -0.614 -2.592 ...
+##   .. ..- attr(*, "names")= chr [1:100] "(Intercept)" "rt(100, 1)" "" "" ...
+##   ..$ rank         : int 2
+##   ..$ fitted.values: Named num [1:100] -0.136 -0.139 -0.135 -0.138 -0.137 ...
+##   .. ..- attr(*, "names")= chr [1:100] "1" "2" "3" "4" ...
+##   ..$ assign       : int [1:2] 0 1
+##   ..$ qr           :List of 5
+##   .. ..$ qr   : num [1:100, 1:2] -10 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 ...
+##   .. .. ..- attr(*, "dimnames")=List of 2
+##   .. .. .. ..$ : chr [1:100] "1" "2" "3" "4" ...
+##   .. .. .. ..$ : chr [1:2] "(Intercept)" "rt(100, 1)"
+##   .. .. ..- attr(*, "assign")= int [1:2] 0 1
+##   .. ..$ qraux: num [1:2] 1.1 1
+##   .. ..$ pivot: int [1:2] 1 2
+##   .. ..$ tol  : num 1e-07
+##   .. ..$ rank : int 2
+##   .. ..- attr(*, "class")= chr "qr"
+##   ..$ df.residual  : int 98
+##   ..$ xlevels      : Named list()
+##   ..$ call         : language lm(formula = rnorm(100) ~ 1 + rt(100, 1))
+##   ..$ terms        :Classes 'terms', 'formula'  language rnorm(100) ~ 1 + rt(100, 1)
+##   .. .. ..- attr(*, "variables")= language list(rnorm(100), rt(100, 1))
+##   .. .. ..- attr(*, "factors")= int [1:2, 1] 0 1
+##   .. .. .. ..- attr(*, "dimnames")=List of 2
+##   .. .. .. .. ..$ : chr [1:2] "rnorm(100)" "rt(100, 1)"
+##   .. .. .. .. ..$ : chr "rt(100, 1)"
+##   .. .. ..- attr(*, "term.labels")= chr "rt(100, 1)"
+##   .. .. ..- attr(*, "order")= int 1
+##   .. .. ..- attr(*, "intercept")= int 1
+##   .. .. ..- attr(*, "response")= int 1
+##   .. .. ..- attr(*, ".Environment")=<environment: R_GlobalEnv> 
+##   .. .. ..- attr(*, "predvars")= language list(rnorm(100), rt(100, 1))
+##   .. .. ..- attr(*, "dataClasses")= Named chr [1:2] "numeric" "numeric"
+##   .. .. .. ..- attr(*, "names")= chr [1:2] "rnorm(100)" "rt(100, 1)"
+##   ..$ model        :'data.frame':	100 obs. of  2 variables:
+##   .. ..$ rnorm(100): num [1:100] 1.678 -0.343 0.497 -0.586 -2.564 ...
+##   .. ..$ rt(100, 1): num [1:100] 0.157 -1.019 0.578 -0.404 -0.263 ...
+##   .. ..- attr(*, "terms")=Classes 'terms', 'formula'  language rnorm(100) ~ 1 + rt(100, 1)
+##   .. .. .. ..- attr(*, "variables")= language list(rnorm(100), rt(100, 1))
+##   .. .. .. ..- attr(*, "factors")= int [1:2, 1] 0 1
+##   .. .. .. .. ..- attr(*, "dimnames")=List of 2
+##   .. .. .. .. .. ..$ : chr [1:2] "rnorm(100)" "rt(100, 1)"
+##   .. .. .. .. .. ..$ : chr "rt(100, 1)"
+##   .. .. .. ..- attr(*, "term.labels")= chr "rt(100, 1)"
+##   .. .. .. ..- attr(*, "order")= int 1
+##   .. .. .. ..- attr(*, "intercept")= int 1
+##   .. .. .. ..- attr(*, "response")= int 1
+##   .. .. .. ..- attr(*, ".Environment")=<environment: R_GlobalEnv> 
+##   .. .. .. ..- attr(*, "predvars")= language list(rnorm(100), rt(100, 1))
+##   .. .. .. ..- attr(*, "dataClasses")= Named chr [1:2] "numeric" "numeric"
+##   .. .. .. .. ..- attr(*, "names")= chr [1:2] "rnorm(100)" "rt(100, 1)"
+##   ..- attr(*, "class")= chr "lm"
+##  $ d: NULL
+##  $ e:'data.frame':	5 obs. of  3 variables:
+##   ..$ weight    : num [1:5] 84.5 72.6 75.7 94.8 71.3
+##   ..$ height    : num [1:5] 86.5 71.8 77.2 84.9 75.4
+##   ..$ backlength: num [1:5] 130 100 109 141 101
+```
+
+In the above example, `my_list` is an `R` list which contains 5 entries. The first entry called `a` is simply a number (or a vector of length 1). The second entry called `b` is a matrix. The third entry called `c` is a linear model. The fourth entry called `d` is a plot. Finally the fifth entry called `e` is a data frame. A list may be named (e.g. `a` to `e` above), or they need not be named.
+
+What is clear is that a list is able to hold not just one type of object, but various kinds of objects. This makes it useful to hold information or results for retrieval later, or for saving. Complex functions usually output a list rather than just singular objects.
+
+## Subsetting
+
+In `R`, subsetting is done using square brackets:
+
+
+```r
+a <- 1:10
+a[3]  # subset the 3rd element in the vector
+## [1] 3
+a[1:5]  # subset the first 5 elements
+## [1] 1 2 3 4 5
+a[a %% 2 == 0]  # subset even elements only (note: the '%%' operator gives the remainder)
+## [1]  2  4  6  8 10
+```
+
+It is also possible to index matrices and dataframes
+
+
+```r
+mat[2, 3]  # get the (2,3) element from the matrix
+## [1] 3
+sheep[1, 2]  # get the first element in the 2nd column
+## [1] 86.5
+```
+
+For data frames, you've seen that it is possible to use the `$` symbol to get the columns. From this, it is vectorised so it's further possible to subset using `[]`.
+
+
+```r
+sheep$height[1]  # the first sheep's height
+## [1] 86.5
+```
+
 # R management
 
 ## The R help system
@@ -285,10 +472,10 @@ Notice the `()`, these are vital for the command to work.
 
 ```r
 objects()
-##  [1] "calc1"        "calc2"        "delete_files" "height"      
-##  [5] "large"        "meanweight"   "numbers"      "numobs"      
-##  [9] "people"       "sheep"        "small"        "total"       
-## [13] "weight"
+##  [1] "a"            "calc1"        "calc2"        "delete_files" "height"      
+##  [6] "large"        "mat"          "meanweight"   "my_list"      "numbers"     
+## [11] "numobs"       "people"       "sheep"        "small"        "total"       
+## [16] "weight"
 ```
 
 The information in the variables height and weight is currently encapsulated in the data frame sheep. 
@@ -299,8 +486,9 @@ Do this and then check what is left.
 ```r
 rm(height, weight, meanweight, numobs, total)
 objects()
-## [1] "calc1"        "calc2"        "delete_files" "large"       
-## [5] "numbers"      "people"       "sheep"        "small"
+##  [1] "a"            "calc1"        "calc2"        "delete_files" "large"       
+##  [6] "mat"          "my_list"      "numbers"      "people"       "sheep"       
+## [11] "small"
 ```
 
 The height and weight variables are now only accessible via the sheep data frame.
@@ -413,19 +601,19 @@ library(tidyverse)
 ```
 
 ```
-## ── Attaching packages ─────────────────────────────────────────────────────── tidyverse 1.2.1 ──
+## ── Attaching packages ───────────────────────────────────────────────────────────── tidyverse 1.3.0 ──
 ```
 
 ```
-## ✔ ggplot2 3.1.0       ✔ purrr   0.3.2  
-## ✔ tibble  2.1.1       ✔ dplyr   0.8.0.1
-## ✔ tidyr   0.8.3       ✔ stringr 1.4.0  
-## ✔ readr   1.3.1       ✔ forcats 0.4.0
+## ✓ ggplot2 3.3.2     ✓ purrr   0.3.4
+## ✓ tibble  3.0.3     ✓ dplyr   1.0.0
+## ✓ tidyr   1.1.0     ✓ stringr 1.4.0
+## ✓ readr   1.3.1     ✓ forcats 0.5.0
 ```
 
 ```
-## ── Conflicts ────────────────────────────────────────────────────────── tidyverse_conflicts() ──
-## ✖ dplyr::filter() masks stats::filter()
-## ✖ dplyr::lag()    masks stats::lag()
+## ── Conflicts ──────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()
 ```
 
