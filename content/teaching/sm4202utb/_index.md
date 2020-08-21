@@ -7,7 +7,7 @@ weight: 1
 # Page metadata.
 title: SM4202 Random Processes
 date: "2020-08-05T00:00:00Z"
-lastmod: "2020-08-05T00:00:00Z"
+lastmod: "2020-08-21T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -29,7 +29,7 @@ I will be teaching SM4202 for the first half of the semester (roughly 7 weeks).
 
 Here are the topics I intend to cover for this course. This may change depending on how we get on with the course.
 
-- Chapter 1: Probability recap
+- Chapter 1: Probability recap 
 
   - Recall fundamental concepts in mathematical probability
   - Recap of discrete and continuous distributions
@@ -85,21 +85,21 @@ Here are the topics I intend to cover for this course. This may change depending
 - W7 Wed 26/8/2020 1330-1530 @ 1A.60; Lecture (Chapter 4)
 - W7 Sat 29/8/2020 0800-1200 @ TBC; Tutorial (Exercise 4) -->
 
-- W4 Tue 18/8/2020 1330-1530 @ 1G.16; Lecture (Chapter 1)
-- W4 Wed 19/8/2020 1330-1530 @ 1A.60; Lecture (Chapter 1, 2)
-- W5 Tue 25/8/2020 1330-1530 @ 1G.16; Lecture (Chapter 2)
-- W5 Wed 26/8/2020 1330-1530 @ 1A.60; Lecture (Chapter 2)
+- <s>W4 Tue 18/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 1)</s>
+- <s>W4 Wed 19/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 1)</s>
+- W5 Tue 25/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 2)
+- W5 Wed 26/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 2)
 - W5 Sat 29/8/2020 0800-1200 @ TBC; Tutorial (Exercise 1 & 2)
-- W6 Tue 25/8/2020 1330-1530 @ 1G.16; Lecture (Chapter 3)
-- W6 Wed 26/8/2020 1330-1530 @ 1A.60; Lecture (Chapter 3)
+- W6 Tue 25/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)
+- W6 Wed 26/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)
 - W6 Sat 29/8/2020 0800-1200 @ TBC; Tutorial (Exercise 3)
-- W7 Tue 25/8/2020 1330-1530 @ 1G.16; Lecture (Chapter 4)
-- W7 Wed 26/8/2020 1330-1530 @ 1A.60; Lecture (Chapter 4)
+- W7 Tue 25/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 4)
+- W7 Wed 26/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 4)
 - W7 Sat 29/8/2020 0800-1200 @ TBC; Tutorial (Exercise 4)
 
 ### Lecture Notes
 
-TBA
+Download lecture notes from my shared [Google Drive](https://drive.google.com/drive/folders/1RafyRhg6lvhNCMj2hlbMnXr2WB6C17g5?usp=sharing).
 
 ### Exercise Sheets
 
