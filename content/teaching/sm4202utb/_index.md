@@ -89,13 +89,13 @@ Here are the topics I intend to cover for this course. This may change depending
 - <s>W4 Wed 19/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 1)</s>
 - <s>W5 Tue 25/8/2020 1300-1530 @ 1A.62; Lecture (Chapter 2)</s>
 - <s>W5 Wed 26/8/2020 1230-1400 @ 1A.62; Lecture (Chapter 2)</s>
-- W5 Sat 29/8/2020 0800-1000 @ 1A.62; Tutorial (Exercise 1)
-- W6 Tue 25/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)
+- <s>W5 Sat 29/8/2020 0800-1000 @ 1A.62; Tutorial (Exercise 1)</s>
+- <s>W6 Tue 25/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 2)</s>
 - W6 Wed 26/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)
 - W6 Sat 29/8/2020 0800-1000 @ 1A.62; Tutorial (Exercise 2)
-- W7 Tue 25/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 4)
+- W7 Tue 25/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)
 - W7 Wed 26/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 4)
-- W7 Sat 29/8/2020 0800-1000 @ 1A.62; Tutorial (Exercise 3)
+- MIDSEM Wed 16/9/2020 1330-1530 @ 1A.62; Tutorial (Exercise 3)
 
 ### Lecture Notes
 
@@ -103,9 +103,9 @@ Download lecture notes from my shared [Google Drive](https://drive.google.com/dr
 
 ### Exercise Sheets
 
-- [Exercise 1](/teaching/sm4202utb/sm4202-ex1.pdf) / Solutions
+- [Exercise 1](/teaching/sm4202utb/sm4202-ex1.pdf) / [Solutions](/teaching/sm4202utb/sm4202-ex1_solutions.pdf)
 - [Exercise 2](/teaching/sm4202utb/sm4202-ex2.pdf) / Solutions
-
+- [Exercise 3](/teaching/sm4202utb/sm4202-ex3.pdf) / Solutions
 
 ### Statistical Tables
 
