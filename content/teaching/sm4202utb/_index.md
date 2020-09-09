@@ -56,14 +56,14 @@ Here are the topics I intend to cover for this course. This may change depending
   - Invariant measures for irreducible, continuous Markov processes
   <br></br>
 
-- Chapter 4: Poisson process and exponential distributions
+<!-- - Chapter 4: Poisson process and exponential distributions
 
   - Poisson and exponential distrbutions
   - Poisson processes
   - Exponential waiting and arrival times
   - Independent increments of Poisson counting process
   - Stopping times and it being a Poisson process
-  - Poisson counts
+  - Poisson counts -->
 
 ### Schedule
 
@@ -93,9 +93,11 @@ Here are the topics I intend to cover for this course. This may change depending
 - <s>W6 Tue 25/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 2)</s>
 - <s>W6 Wed 26/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 2)</s>
 - <s>W6 Sat 29/8/2020 0800-1000 @ 1A.62; Tutorial (Exercise 2)</s>
-- W7 Tue 25/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)
+- <s>W7 Tue 25/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)</s>
 - W7 Wed 26/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)
-- MIDSEM Tue 15/9/2020 1330-1530 @ 1A.62; Tutorial (Exercise 3)
+- MIDSEM Mon 14/9/2020 0800-1100 @ 1A.62; Lecture and Tutorial (Chapter 3 & Exercise 3)
+
+*CLASS TEST* Scheduled for Sat 26/9/2020 @ 0830-0930. Covers Chapters 1 and 2 only.
 
 ### Lecture Notes
 
@@ -112,5 +114,8 @@ Download lecture notes from my shared [Google Drive](https://drive.google.com/dr
 - [Link](https://haziqj.github.io/stat-tables/)
 
 
+### Other Links
 
+- [Epsilon-Delta Definition of Continuity](https://www.desmos.com/calculator/4efsywgvtg)
+- [Simulating an Epidemic (3B1B)](https://www.youtube.com/watch?v=gxAaO2rsdIs)
 
