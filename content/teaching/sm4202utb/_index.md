@@ -90,11 +90,11 @@ Here are the topics I intend to cover for this course. This may change depending
 - <s>W5 Tue 25/8/2020 1300-1530 @ 1A.62; Lecture (Chapter 2)</s>
 - <s>W5 Wed 26/8/2020 1230-1400 @ 1A.62; Lecture (Chapter 2)</s>
 - <s>W5 Sat 29/8/2020 0800-1000 @ 1A.62; Tutorial (Exercise 1)</s>
-- <s>W6 Tue 25/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 2)</s>
-- <s>W6 Wed 26/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 2)</s>
-- <s>W6 Sat 29/8/2020 0800-1000 @ 1A.62; Tutorial (Exercise 2)</s>
-- <s>W7 Tue 25/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)</s>
-- W7 Wed 26/8/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)
+- <s>W6 Tue 01/9/2020 1330-1530 @ 1A.62; Lecture (Chapter 2)</s>
+- <s>W6 Wed 02/9/2020 1330-1530 @ 1A.62; Lecture (Chapter 2)</s>
+- <s>W6 Sat 05/9/2020 0800-1000 @ 1A.62; Tutorial (Exercise 2)</s>
+- <s>W7 Tue 08/9/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)</s>
+- <s>W7 Wed 09/9/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)</s>
 - MIDSEM Mon 14/9/2020 0800-1100 @ 1A.62; Lecture and Tutorial (Chapter 3 & Exercise 3)
 
 *CLASS TEST* Scheduled for Sat 26/9/2020 @ 0830-0930. Covers Chapters 1 and 2 only.
@@ -112,7 +112,6 @@ Download lecture notes from my shared [Google Drive](https://drive.google.com/dr
 ### Statistical Tables
 
 - [Link](https://haziqj.github.io/stat-tables/)
-
 
 ### Other Links
 
