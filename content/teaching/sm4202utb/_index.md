@@ -113,6 +113,13 @@ Download lecture notes from my shared [Google Drive](https://drive.google.com/dr
 
 - [Link](https://haziqj.github.io/stat-tables/)
 
+### Supplementary Reading
+
+- [Ross, S. (2009). A First Course in Probability.](http://julio.staff.ipb.ac.id/files/2015/02/Ross_8th_ed_English.pdf)
+- [Ross, S. M. (2014). Introduction to probability models. Academic Press.](http://mitran-lab.amath.unc.edu/courses/MATH768/biblio/introduction-to-prob-models-11th-edition.PDF)
+- Grimmet, G. & Stirzaker, D. (2020). Probability and Random Processes. Oxford University Press.
+- Norris, J. R. (1998). Markov Chains. Cambridge University Press.
+
 ### Other Links
 
 - [Epsilon-Delta Definition of Continuity](https://www.desmos.com/calculator/4efsywgvtg)
