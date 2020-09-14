@@ -95,7 +95,7 @@ Here are the topics I intend to cover for this course. This may change depending
 - <s>W6 Sat 05/9/2020 0800-1000 @ 1A.62; Tutorial (Exercise 2)</s>
 - <s>W7 Tue 08/9/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)</s>
 - <s>W7 Wed 09/9/2020 1330-1530 @ 1A.62; Lecture (Chapter 3)</s>
-- MIDSEM Mon 14/9/2020 0800-1100 @ 1A.62; Lecture and Tutorial (Chapter 3 & Exercise 3)
+- <s>MIDSEM Mon 14/9/2020 0800-1100 @ 1A.62; Lecture and Tutorial (Chapter 3 & Exercise 3)</s>
 
 *CLASS TEST* Scheduled for Sat 26/9/2020 @ 0830-0930. Covers Chapters 1 and 2 only.
 
@@ -107,7 +107,7 @@ Download lecture notes from my shared [Google Drive](https://drive.google.com/dr
 
 - [Exercise 1](/teaching/sm4202utb/sm4202-ex1.pdf) / [Solutions](/teaching/sm4202utb/sm4202-ex1_solutions.pdf)
 - [Exercise 2](/teaching/sm4202utb/sm4202-ex2.pdf) / [Solutions](/teaching/sm4202utb/sm4202-ex2_solutions.pdf)
-- [Exercise 3](/teaching/sm4202utb/sm4202-ex3.pdf) / Solutions
+- [Exercise 3](/teaching/sm4202utb/sm4202-ex3.pdf) / [Solutions](/teaching/sm4202utb/sm4202-ex3_solutions.pdf)
 
 ### Statistical Tables
 
