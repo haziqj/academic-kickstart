@@ -23,6 +23,8 @@ menu:
 math: true
 ---
 
+**STUDENTS, I WELCOME FEEDBACK FROM YOU: [Link](/feedback)**
+
 I will be teaching SM4202 for the first half of the semester (roughly 7 weeks). 
 
 ### Syllabus

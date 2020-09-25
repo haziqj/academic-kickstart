@@ -8,3 +8,5 @@ content/teaching/datascience/kiva_loans.csv
 content/teaching/datascience/loan_theme_ids.csv
 content/teaching/datascience/loan_themes_by_region.csv
 content/teaching/datascience/kiva_mpi_region_locations.csv
+content/feedback/.RData
+content/feedback/.Rhistory

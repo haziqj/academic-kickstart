@@ -1,6 +1,6 @@
 +++
 title = "Regression modelling with I-priors: Applications to functional, multilevel and longitudinal data"
-date = "2019-12-16"
+date = "2020-09-14"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Wicher Bergsma", "Haziq Jamil"]
