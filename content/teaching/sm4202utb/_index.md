@@ -23,7 +23,9 @@ menu:
 math: true
 ---
 
-**STUDENTS, I WELCOME FEEDBACK FROM YOU: [Link](/feedback)**
+{{% alert note %}}
+Dear students, I welcome feedback from you: [Link](/feedback)
+{{% /alert %}}
 
 I will be teaching SM4202 for the first half of the semester (roughly 7 weeks). 
 
