@@ -1,6 +1,6 @@
 +++
 title = "Investigating the effect of load carriage on soldiers’ performances using Bayesian structural equation models"
-date = "2020-02-15"
+date = "2020-09-29"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Haziq Jamil", "Ayesha Salleh", "Le Thieng Chan"]
@@ -17,7 +17,7 @@ authors = ["Haziq Jamil", "Ayesha Salleh", "Le Thieng Chan"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Manuscript in preparation"
+publication = "Manuscript in submission"
 publication_short = ""
 
 # Abstract.

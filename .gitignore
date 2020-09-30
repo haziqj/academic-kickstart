@@ -10,3 +10,4 @@ content/teaching/datascience/loan_themes_by_region.csv
 content/teaching/datascience/kiva_mpi_region_locations.csv
 content/feedback/.RData
 content/feedback/.Rhistory
+*.icloud
