@@ -27,9 +27,9 @@ Please download RStudio onto your laptops. Install the `tidyverse` package by ru
 
 ### Schedule
 
-- Wed 4/3/2020 0800-1000 @ FSM 2.17; Exploratory Data Analysis
-- Thu 5/3/2020 1000-1200 @ FSM 2.17; Hypothesis Testing
-- Sat 7/3/2020 0800-1100 @ FSM 2.17; Linear Regression
+- Mon 19/10/2020 1000-1200 ONLINE; Exploratory Data Analysis
+- Mon 26/10/2020 1000-1200 ONLINE; Hypothesis Testing
+- Mon 2/11/2020 1000-1200 ONLINE; Linear Regression
 
 ### Lecture Slides
 
