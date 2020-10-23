@@ -17,7 +17,7 @@ authors = ["Haziq Jamil", "Wicher Bergsma"]
 publication_types = ["6"]
 
 # Publication name and optional abbreviated version.
-publication = "Manuscript in submission"
+publication = "In: *Theoretical, Modelling and Numerical Simulations Toward Industry 4.0.* Ed. by Samsul Ariffin Abdul Karim. Singapore: Springer. ISBN: 978-981-15-8986-7"
 publication_short = ""
 
 # Abstract.
