@@ -17,6 +17,20 @@ height = "300px"
 # Duplicate an `[[item]]` block to add more slides.
 
 [[item]]
+  title = "FOS Research Newsletter"
+  content = "My Zellner Award is featured in the third FOS Research Newsletter!<br><br>"
+  align = "center"
+
+  overlay_color = "#333"  # An HTML color value.
+  overlay_img = "headers/fos.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.65  # Darken the image. Value in range 0-1.
+  
+  cta_label = "Read Story"
+  cta_url = "http://fos.ubd.edu.bn/researchnewsletter/"
+  cta_icon_pack = "fas"
+  cta_icon = "newspaper"
+
+[[item]]
   title = 'My PhD Project'
   content = 'Regression modelling using priors depending on Fisher information covariance kernels (I-priors)'
   align = "center"
@@ -91,19 +105,7 @@ cta_icon_pack = "fas"
 
 
 +++
-<!-- [[item]]
-  title = "FOS Research Newsletter"
-  content = "The first-ever FOS Research Newsletter has been published!<br><br>"
-  align = "center"
 
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = "headers/fos.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.65  # Darken the image. Value in range 0-1.
-  
-  cta_label = "Get PDF"
-  cta_url = "/files/ubd/fos-research.pdf"
-  cta_icon_pack = "fas"
-  cta_icon = "newspaper" -->
 
 
 
