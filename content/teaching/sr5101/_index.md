@@ -29,7 +29,7 @@ Please download RStudio onto your laptops. Install the `tidyverse` package by ru
 
 - Mon 19/10/2020 1000-1200 ONLINE; Exploratory Data Analysis
 - Mon 26/10/2020 1000-1200 ONLINE; Hypothesis Testing
-- Mon 2/11/2020 1000-1200 ONLINE; Linear Regression
+- Mon 9/11/2020 1000-1200 ONLINE; Linear Regression
 
 ### Lecture Slides
 
