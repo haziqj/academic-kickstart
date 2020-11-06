@@ -14,7 +14,7 @@ publishDate = 2017-01-01T00:00:00
 authors = ["Haziq Jamil"]
 
 # Location of event.
-location = "Integrated Science Building, UBD"
+location = "Lecture Room 2 (D2.8), Block D, Integrated Science Building, UBD"
 
 # Name of event and optional event URL.
 event = "Institute of Analytics and Data Analysis (IADA) Seminar"
