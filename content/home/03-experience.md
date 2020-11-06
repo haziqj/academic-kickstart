@@ -48,11 +48,15 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   Teaching:
+  - CU-0304 Sciences for University Study
   - SM-1402 Basic Statistics
   - SM-2401 Geometry
   - SM-4331 Advanced Statistics
+  - SR-5101 Advanced Research Skills
 
-  I am also one of the Discovery Year (DY) Advisors for Mathematics.
+  Appointments:
+  - Discovery Year Advisor (Mathematics, FOS)
+  - Research Associate, Institute of Applied Data Analytics (IADA)
   """
 
 +++
