@@ -17,7 +17,7 @@ authors = ["Haziq Jamil"]
 location = "Lecture Room 2 (D2.8), Block D, Integrated Science Building, UBD"
 
 # Name of event and optional event URL.
-event = "Institute of Analytics and Data Analysis (IADA) Seminar"
+event = "Institute of Applied Data Analysis (IADA) Seminar"
 event_url = ""
 
 # Abstract. What's your talk about?
