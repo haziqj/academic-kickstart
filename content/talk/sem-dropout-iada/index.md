@@ -89,7 +89,7 @@ math = true
 
 ## Sample code in JAGS
 
-```
+```r
 model{
   for (i in 1:N) {
     for (k in 1:p_phy) {  # Physical
