@@ -73,4 +73,16 @@ math = true
   focal_point = ""
 +++
 
+## Links
+ 
+- [An interactive visualisation of Bayesian inference](https://rpsychologist.com/d3/bayes/)
+- [MCMC demo](https://github.com/chi-feng/mcmc-demo)
+
+## References 
+
+- Bollen, K. A. (1989). *Structural Equations with Latent Variables. John Wiley & Sons.* ISBN: 978-0-471-01171-2. DOI: [10.1002/9781118619179](https://doi.org/10.1002/9781118619179).
+- Edwards, J. R. and R. P. Bagozzi (2000). *On the nature and direction of relationships between constructs and measures.* Psychological methods 5.2, p. 155.
+- Hafez, M. S., I. Moustaki, and J. Kuha (2015). *Analysis of multivariate longitudinal data subject to nonrandom dropout.* Structural Equation Modeling: A Multidisciplinary Journal 22.2, pp. 193–201.
+- Kruschke, J. K. (2014). *Doing Bayesian Data Analysis: A tutorial with R, JAGS, and Stan.* Second Edition. Boston: Academic Press. ISBN: 978-0-12-405888-0.
+- Rabe-Hesketh, S. and A. Skrondal (2008). *Multilevel and longitudinal modeling using Stata.* STATA press.
 
