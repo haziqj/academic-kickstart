@@ -1,6 +1,6 @@
 +++
 title = "Bayesian variable selection for linear models using I-priors"
-date = "2020-02-15"
+date = "2020-11-18"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Haziq Jamil", "Wicher Bergsma"]
@@ -17,7 +17,7 @@ authors = ["Haziq Jamil", "Wicher Bergsma"]
 publication_types = ["6"]
 
 # Publication name and optional abbreviated version.
-publication = "In: *Theoretical, Modelling and Numerical Simulations Toward Industry 4.0.* Ed. by Samsul Ariffin Abdul Karim. Singapore: Springer. ISBN: 978-981-15-8986-7"
+publication = "In: *Theoretical, Modelling and Numerical Simulations Toward Industry 4.0*, pp. 107--132. Ed. by Samsul Ariffin Abdul Karim. Singapore: Springer. ISBN: 978-981-15-8986-7"
 publication_short = ""
 
 # Abstract.
@@ -46,7 +46,7 @@ projects = []
 
 # Links (optional).
 url_pdf = ""
-url_preprint = "files/iprior-bvs.pdf"
+url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
@@ -57,7 +57,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# links = [{name = "Results", url = "https://haziqj.shinyapps.io/schis/"}]
+links = [{name = "DOI", url = "https://doi.org/10.1007/978-981-15-8987-4_8"}]
 
 
 # Does this page contain LaTeX math? (true/false)
@@ -71,6 +71,20 @@ math = false
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  focal_point = "Smart"
 +++
 
+Citation:
+
+```latex
+@incollection{jamil4bayesian,
+  title={Bayesian Variable Selection for Linear Models Using I-Priors},
+  author={Jamil, Haziq and Bergsma, Wicher},
+  booktitle={Theoretical, Modelling and Numerical Simulations Toward Industry 4.0},
+  pages={107--132},
+  publisher={Springer},
+  address={Singapore},
+  editor = {Abdul Karim, Samsul Ariffin},
+  year = {2020}
+}
+```
