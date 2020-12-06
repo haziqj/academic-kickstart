@@ -84,7 +84,7 @@ Citation:
   pages={107--132},
   publisher={Springer},
   address={Singapore},
-  editor = {Abdul Karim, Samsul Ariffin},
-  year = {2020}
+  editor={Abdul Karim, Samsul Ariffin},
+  year={2020}
 }
 ```
