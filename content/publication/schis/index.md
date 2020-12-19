@@ -1,6 +1,6 @@
 +++
 title = "Latent Class Analysis: Insights about design and analysis of schistosomiasis diagnostic studies"
-date = "2019-03-08"
+date = "2020-12-19"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Artemis Koukounari",  "Haziq Jamil", "Elena Erosheva", "Clive Shiff", "Irini Moustaki"]
@@ -17,7 +17,7 @@ authors = ["Artemis Koukounari",  "Haziq Jamil", "Elena Erosheva", "Clive Shiff"
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Manuscript in submission"
+publication = "PLoS Neglected Tropical Diseases (to appear)"
 publication_short = ""
 
 # Abstract.
