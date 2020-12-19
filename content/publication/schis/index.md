@@ -17,7 +17,7 @@ authors = ["Artemis Koukounari",  "Haziq Jamil", "Elena Erosheva", "Clive Shiff"
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "PLoS Neglected Tropical Diseases (to appear)"
+publication = "PLOS Neglected Tropical Diseases (to appear)"
 publication_short = ""
 
 # Abstract.
