@@ -1,6 +1,6 @@
 +++
 title = "Latent Class Analysis: Insights about design and analysis of schistosomiasis diagnostic studies"
-date = "2020-12-19"
+date = "2021-02-04"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Artemis Koukounari",  "Haziq Jamil", "Elena Erosheva", "Clive Shiff", "Irini Moustaki"]
@@ -17,7 +17,7 @@ authors = ["Artemis Koukounari",  "Haziq Jamil", "Elena Erosheva", "Clive Shiff"
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "PLOS Neglected Tropical Diseases (to appear)"
+publication = "PLoS Neglected Tropical Diseases. 15(2):e0009042"
 publication_short = ""
 
 # Abstract.
@@ -27,7 +27,7 @@ abstract = "Various global health initiatives are currently advocating the elimi
 summary = ""
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "10.1371/journal.pntd.0009042"
 
 # Is this a featured publication? (true/false)
 featured = false
@@ -45,7 +45,7 @@ tags = ["Latent Class Models"]
 projects = ["schis"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://journals.plos.org/plosntds/article/file?id=10.1371/journal.pntd.0009042&type=printable"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -57,8 +57,8 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Supplementary", url = "/files/kjem-paper-supp.pdf"}, {name = "Results", url = "https://haziqj.shinyapps.io/schis/"}]
-
+links = [{name = "Results", url = "https://haziqj.shinyapps.io/schis/"}]
+# {name = "Supplementary", url = "/files/kjem-paper-supp.pdf"}, 
 
 # Does this page contain LaTeX math? (true/false)
 math = false
