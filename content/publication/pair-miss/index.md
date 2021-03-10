@@ -27,7 +27,7 @@ abstract = "Methods for the treatment of item non-response in attitudinal scales
 summary = ""
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "10.1111/bmsp.12243"
 
 # Is this a featured publication? (true/false)
 featured = false
