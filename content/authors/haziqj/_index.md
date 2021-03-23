@@ -58,8 +58,8 @@ social:
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0003-3298-1010 
-- icon: scopus
-  icon_pack: ai
+- icon: scroll
+  icon_pack: fa
   link: https://www.scopus.com/authid/detail.uri?authorId=57219527445     
 - icon: github
   icon_pack: fab
