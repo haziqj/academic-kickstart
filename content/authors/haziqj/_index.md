@@ -49,15 +49,18 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/hajiq
+#- icon: twitter
+#  icon_pack: fab
+#  link: https://twitter.com/hajiq
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=3CL0zhUAAAAJ&hl=en
+  link: https://scholar.google.com/citations?user=3CL0zhUAAAAJ&hl=en  
 - icon: orcid
   icon_pack: ai
-  link: https://orcid.org/0000-0003-3298-1010  
+  link: https://orcid.org/0000-0003-3298-1010 
+- icon: scopus
+  icon_pack: ai
+  link: https://www.scopus.com/authid/detail.uri?authorId=57219527445     
 - icon: github
   icon_pack: fab
   link: https://github.com/haziqj
