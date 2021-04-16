@@ -17,7 +17,7 @@ authors = ["Myrsini Katsikatsou",   "Irini Moustaki", "Haziq Jamil"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "British Journal of Mathematical and Statistical Psychology (to appear)"
+publication = "British Journal of Mathematical and Statistical Psychology. DOI: 10.1111/bmsp.12243"
 # publication_short = "Br. J. Math. Stat. Psychol"
 
 # Abstract.
@@ -45,7 +45,7 @@ tags = ["Pairwise Likelihood", "Factor Analysis"]
 projects = []
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://bpspsychub.onlinelibrary.wiley.com/doi/full/10.1111/bmsp.12243"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
