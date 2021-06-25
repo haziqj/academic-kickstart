@@ -17,7 +17,7 @@ authors = ["Haziq Jamil", "Huda M Ramli", "Elvynna Leong"]
 publication_types = ["6"]
 
 # Publication name and optional abbreviated version.
-publication = "Manuscript in submission"
+publication = "In: *Engineering and Sciences Teaching and Learning Activities: New Systems Throughout COVID-19 Pandemics*, pp. 107--132. Ed. by Samsul Ariffin Abdul Karim and Saiful Azmi Hussain. Springer International Publishing. ISBN: 978-3-030-79613-6"
 publication_short = ""
 
 # Abstract.
@@ -27,7 +27,7 @@ abstract = "Institutional mathematics education has long been traditional in its
 summary = ""
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "10.1007/978-3-030-79614-3"
 
 # Is this a featured publication? (true/false)
 featured = false
