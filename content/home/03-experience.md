@@ -47,6 +47,8 @@ date_format = "Jan 2006"
   date_start = "2019-09-09"
   date_end = ""
   description = """
+  **I am on academic sabbatical during the period 1 July 2021 to 2 January 2022.**
+
   Teaching:
   - CU-0304 Sciences for University Study
   - SM-1402 Basic Statistics
@@ -57,6 +59,9 @@ date_format = "Jan 2006"
   Appointments:
   - Discovery Year Advisor (Mathematics, FOS)
   - Research Associate, Institute of Applied Data Analytics (IADA)
+
+  Consultancy:
+  - Data Analysis for Human Performance Data, Ministry of Defence Brunei (2021)
   """
 
 +++

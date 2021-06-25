@@ -17,19 +17,16 @@ subtitle = ""
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
-  name = "R"
-  description = "95%"
+  name = "R Programming"
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "95%"  
+  name = "Statistical Modelling"
   
 [[feature]]
-  icon = "shopping-bag"
+  icon = "atom"
   icon_pack = "fas"
-  name = "Tender Evaluation"
-  description = "75%"
+  name = "Data Analytics Consulting"
 
 +++

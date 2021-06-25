@@ -17,7 +17,7 @@ authors = ["Haziq Jamil", "Huda M Ramli", "Elvynna Leong"]
 publication_types = ["6"]
 
 # Publication name and optional abbreviated version.
-publication = "In: *Engineering and Sciences Teaching and Learning Activities: New Systems Throughout COVID-19 Pandemics*, pp. 107--132. Ed. by Samsul Ariffin Abdul Karim and Saiful Azmi Hussain. Springer International Publishing. ISBN: 978-3-030-79613-6"
+publication = "In: *Engineering and Sciences Teaching and Learning Activities: New Systems Throughout COVID-19 Pandemics*, pp. TBC. Ed. by Samsul Ariffin Abdul Karim and Saiful Azmi Hussain. Springer International Publishing. ISBN: 978-3-030-79613-6"
 publication_short = ""
 
 # Abstract.
