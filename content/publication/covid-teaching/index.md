@@ -46,7 +46,7 @@ projects = []
 
 # Links (optional).
 url_pdf = ""
-url_preprint = ""
+url_preprint = "https://edarxiv.org/9t7dy/"
 url_code = ""
 url_dataset = ""
 url_project = ""
