@@ -1,6 +1,6 @@
 +++
 title = "Advocating blended learning for university undergraduate level mathematical instruction beyond Covid-19"
-date = "2021-03-14"
+date = "2021-08-26"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Haziq Jamil", "Huda M Ramli", "Elvynna Leong"]
@@ -17,7 +17,7 @@ authors = ["Haziq Jamil", "Huda M Ramli", "Elvynna Leong"]
 publication_types = ["6"]
 
 # Publication name and optional abbreviated version.
-publication = "In: *Engineering and Sciences Teaching and Learning Activities: New Systems Throughout COVID-19 Pandemics*, pp. TBC. Ed. by Samsul Ariffin Abdul Karim and Saiful Azmi Hussain. Springer International Publishing. ISBN: 978-3-030-79613-6"
+publication = "In: *Engineering and Sciences Teaching and Learning Activities: New Systems Throughout COVID-19 Pandemics*, pp. 33-45. Ed. by Samsul Ariffin Abdul Karim and Saiful Azmi Hussain. Studies in Systems, Decision and Control, vol 381. Springer, Cham. ISBN: 978-3-030-79613-6"
 publication_short = ""
 
 # Abstract.
